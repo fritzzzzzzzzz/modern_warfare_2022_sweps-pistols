@@ -35,6 +35,15 @@ SWEP.Animations = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_M1911.Drop")) end}
         }
     },
+	
+    ["Holster_Empty"] = {
+        Sequences = {"holster_empty"},
+        Length = 0.7,
+        Fps = 30,
+        Events = {
+            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_M1911.Drop")) end}
+        }
+    },
 
     ["Equip"] = {
         Sequences = {"draw_First"},
@@ -47,6 +56,7 @@ SWEP.Animations = {
             {Time = 0.7, Callback = function(self) self:DoSound(Sound("MW19_M1911.Raise_First_SlideRelease")) end}
         }
     },
+	
     ["Equip_Barcomp"] = {
         Sequences = {"draw_First_barcomp"},
         Length = 1,

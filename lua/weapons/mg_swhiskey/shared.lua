@@ -163,7 +163,7 @@ SWEP.ViewModelOffsets = {
 SWEP.Shell = "mwb_shelleject_50bmg"
 
 function SWEP:ChooseReloadAnim()
-    if (self:HasAttachment("att_vm_pi_cpapa_soh")) then --change to your soh perk
+    if (self:HasAttachment("att_vm_pi_swhiskey_soh")) then --change to your soh perk
         return "Reload"
     end
 

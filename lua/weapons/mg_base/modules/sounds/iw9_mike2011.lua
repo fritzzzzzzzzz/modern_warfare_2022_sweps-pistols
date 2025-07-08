@@ -100,14 +100,14 @@ sound.Add({
     name =           "ps_wfoly_plr_pi_mike2011_inspect_01",
     channel =        CHAN_WPNFOLEY + 2,
     volume =         1,
-    sound = {"fritz/weapons/mike2011/p55_pi_mike2011_inspect_decock.ogg"}
+    sound = {"fritz/weapons/mike2011/p55_pi_mike2011_inspect_raise.ogg"}
 })
 
 sound.Add({
     name =           "ps_wfoly_plr_pi_mike2011_inspect_02",
     channel =        CHAN_WPNFOLEY + 3,
     volume =         1,
-    sound = {"fritz/weapons/mike2011/p27_pi_papa220_raise_first_end.ogg"}
+    sound = {"fritz/weapons/mike2011/p55_pi_mike2011_inspect_decock.ogg"}
 })
 
 sound.Add({
@@ -156,7 +156,7 @@ sound.Add({
     name =           "ps_wfoly_plr_pi_mike2011_inspect_09",
     channel =        CHAN_WPNFOLEY + 10,
     volume =         1,
-    sound = {"fritz/weapons/mike2011/p55_pi_mike2011_inspect_magdrop.ogg"}
+    sound = {"fritz/weapons/mike2011/p55_pi_mike2011_inspect_drop.ogg"}
 })
 
 sound.Add({
@@ -269,6 +269,35 @@ sound.Add({
     volume =         1,
     sound = {"fritz/weapons/mike2011/p55_pi_mike2011_reload_armup.ogg"}
 })
+
+sound.Add({
+    name =           "ps_wfoly_plr_pi_mike2011_reload_06",
+    channel =        CHAN_WPNFOLEY + 27,
+    volume =         1,
+    sound = {"fritz/weapons/mike2011/p55_pi_mike2011_reload_maghit.ogg"}
+})
+
+sound.Add({
+    name =           "ps_wfoly_plr_pi_mike2011_reload_07",
+    channel =        CHAN_WPNFOLEY + 25,
+    volume =         1,
+    sound = {"fritz/weapons/mike2011/p55_pi_mike2011_reload_mvmnt.ogg"}
+})
+
+sound.Add({
+    name =           "ps_wfoly_plr_pi_mike2011_reload_08",
+    channel =        CHAN_WPNFOLEY + 26,
+    volume =         1,
+    sound = {"fritz/weapons/mike2011/p55_pi_mike2011_reload_magin.ogg"}
+})
+
+sound.Add({
+    name =           "ps_wfoly_plr_pi_mike2011_reload_09",
+    channel =        CHAN_WPNFOLEY + 27,
+    volume =         1,
+    sound = {"fritz/weapons/mike2011/p55_pi_mike2011_reload_end.ogg"}
+})
+
 
 
 
