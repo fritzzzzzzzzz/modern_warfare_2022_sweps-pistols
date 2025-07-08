@@ -1,0 +1,5 @@
+ATTACHMENT.Base = "att_vm_laser02_pstl"
+ATTACHMENT.BonemergeToCategory = {"Barrels"}
+ATTACHMENT.Name = "Revo-LSD 7MW"
+ATTACHMENT.Icon = Material("models/kyo/icon/swhiskey/icon_laser03.vmt")
+ATTACHMENT.Model = Model("models/zeron/attachment_vm_pi_swhiskey_laser03.mdl")

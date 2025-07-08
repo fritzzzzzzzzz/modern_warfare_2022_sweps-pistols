@@ -1,0 +1,13 @@
+ATTACHMENT.Base = "att_barrel"
+ATTACHMENT.Name = "XTEN Harbinger"
+ATTACHMENT.Model = Model("models/kyo/att_vm_p27_pi_papa220_barcomp_v0.mdl")
+ATTACHMENT.Icon = Material("models/kyo/icon/p220/icon_barcomp.vmt")
+ATTACHMENT.ExcludedCategories = {"Lasers"}
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+    weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 1.02
+    weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 1.02
+    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.97
+    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.97
+end

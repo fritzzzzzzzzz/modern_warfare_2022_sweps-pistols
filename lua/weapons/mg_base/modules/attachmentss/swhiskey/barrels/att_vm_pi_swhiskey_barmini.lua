@@ -1,0 +1,19 @@
+ATTACHMENT.Base = "att_barrel"
+ATTACHMENT.Name = "Bryson Snubby"
+ATTACHMENT.Model = Model("models/zeron/att_vm_p26_pi_swhiskey_barmini_v0.mdl")
+ATTACHMENT.Icon = Material("models/kyo/icon/swhiskey/icon_barmini.vmt")
+ATTACHMENT.ExcludedCategories = {"Muzzle Devices"}
+
+
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+    
+    weapon.Cone.Hip =  weapon.Cone.Hip * 1.1
+    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 1.2
+    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 1.2
+    weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 1.12
+    weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 1.12
+    weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 0.86
+    weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 0.86
+end

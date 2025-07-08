@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/icon/tango9/icon_attachment_p49_pi_tango9_rec_v0"
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$translucent" "1"
+}

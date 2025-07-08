@@ -1,0 +1,15 @@
+ATTACHMENT.Base = "att_barrel"
+ATTACHMENT.Name = "Matuzek Cottonmouth"
+ATTACHMENT.Model = Model("models/kyo/att_vm_p27_pi_papa220_barlong_v0.mdl")
+ATTACHMENT.Icon = Material("models/kyo/icon/p220/icon_barlong.vmt")
+
+local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+function ATTACHMENT:Stats(weapon)
+    BaseClass.Stats(self, weapon)
+    weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 1.05
+    weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 1.05
+    weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.94
+    weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.94 
+    weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.95
+    weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.95
+end

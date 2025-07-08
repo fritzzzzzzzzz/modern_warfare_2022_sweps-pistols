@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+    "$basetexture" "zeron/weapons/50gs/icons/icon_attachment_p25_pi_decho_trig_v0"
+    "$nolod" 1
+    "$vertexalpha" 1
+    "$vertexcolor" 1
+    "$translucent" "1"
+}

@@ -1,0 +1,42 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "zeron\weapons\ballslick\xmaterial_289be0603077408c_rgb"
+    "$bumpmap" "zeron\weapons\ballslick\xmaterial_289be0603077408c_n"
+    "$phongexponenttexture" "zeron\weapons\ballslick\xmaterial_289be0603077408c_e"
+
+    /////////////////
+    "$color2" "[.4 .4 .4]"                                     //do not touch this
+    "$blendtintbybasealpha" "1"                             //do not touch this
+    /////////////////
+
+    "$phong" "1"
+    "$phongboost" "1.2"
+    "$phongalbedotint" "1"
+    "$phongalbedoboost" "16"                                //toy around with this
+    "$phongfresnelranges" "[1 0.1 0]"
+
+    //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
+    "$rimlight" "1"
+    "$rimlightexponent" "100"
+    "$rimmask" "1"
+    "$rimlightboost" "1"
+       
+    /////////////////
+    "$normalmapalphaenvmapmask" "1"                         //do not touch this
+    /////////////////
+
+    "$envmap" "zeron\weapons\ballslick\specularity_00"
+    "$envmaptint" "[0.106 0.102 0.094]"                 
+
+    //remove this if not using MWB
+    "Proxies"
+    {
+        "MwEnvMapTint"
+        {
+            "min" "0"
+            "max" "1"
+            "envmap" "zeron\weapons\ballslick\specularity_00"
+            "color" "[0.106 0.102 0.094]"
+        }
+    }
+}

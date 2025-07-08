@@ -1,0 +1,5 @@
+ATTACHMENT.Base = "att_vm_laser02_pstl"
+ATTACHMENT.Name = "Corvus LZR-790"
+ATTACHMENT.BonemergeToCategory = {"Barrels"}
+ATTACHMENT.Icon = Material("models/kyo/icon/swhiskey/icon_laser01.vmt")
+ATTACHMENT.Model = Model("models/zeron/attachment_vm_pi_swhiskey_laser01.mdl")
