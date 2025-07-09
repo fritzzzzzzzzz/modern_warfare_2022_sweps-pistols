@@ -27,7 +27,7 @@ SWEP.Customization = {
 
     {"attachment_vm_pi_tango9_stock", "attachment_vm_pi_tango9_stockass","attachment_vm_pi_tango9_stockhvy","attachment_vm_pi_tango9_stockskel","attachment_vm_pi_tango9_stocklgt"},
 
-    {"att_pistolgrip","attachment_vm_pi_tango9_pistgripass","attachment_vm_pi_tango9_pistgriptac","attachment_vm_pi_tango9_pistgripaim"},
+    {"att_pistolgrip","attachment_vm_pi_tango9_pstgripass","attachment_vm_pi_tango9_pstgriptac","attachment_vm_pi_tango9_pstgripaim"},
 
     {"attachment_vm_pi_tango9_mag", "attachment_vm_pi_tango9_smag", "attachment_vm_pi_tango9_drum", "attachment_vm_pi_tango9_xdrum"},
 

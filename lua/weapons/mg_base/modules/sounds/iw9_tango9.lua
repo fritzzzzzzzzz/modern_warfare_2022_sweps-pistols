@@ -39,9 +39,8 @@ sound.Add({
 
 sound.Add({
 	name = "ps_wfoly_plr_pi_tango9_fire_disconnector",
-	channel = CHAN_TRIGGER,
-
-	volume =  0.45,
+	channel = CHAN_WPNFOLEY +1,
+	volume = 1,
 	pitch = {100,100},
 	sound = {
 		"kyo/mwii/iw9_tango9/plr_fire/weap_tango9_fire_plr_mech_01.ogg",
@@ -57,9 +56,8 @@ sound.Add({
 
 sound.Add({
 	name = "ps_wfoly_plr_pi_tango9_fire_prefire",
-	channel = CHAN_TRIGGER,
-
-	volume =  0.45,
+	channel = CHAN_WPNFOLEY,
+	volume = 1,
 	pitch = {100,100},
 	sound = {
 		"kyo/mwii/iw9_tango9/plr_fire/weap_tango9_fcg_prefire_plr_01.ogg",

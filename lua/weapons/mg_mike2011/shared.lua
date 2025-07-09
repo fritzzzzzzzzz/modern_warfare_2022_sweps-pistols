@@ -158,5 +158,5 @@ SWEP.ViewModelOffsets = {
     KickMultiplier = 1
 }
 
-SWEP.Shell = "mwb_shelleject_9mm"
+SWEP.Shell = "mwb_shelleject_iw9_9mm"
 
