@@ -47,7 +47,7 @@ SWEP.Customization = {
 
     {"att_vm_p25_pi_decho_trig_v0", "att_vm_p25_pi_decho_trighvy_v0", "att_vm_p25_pi_decho_triglight_v0", "att_vm_p25_pi_decho_trighair_v0"},
 
-    {"att_laser", "att_vm_pi_decho_laser01", "att_vm_pi_decho_laser02", "att_vm_pi_decho_laser03"}
+    {"att_laser", "att_vm_laser_pstl02_v0", "att_vm_laser_pstl05_v0", "att_vm_laser_pstl06_v0", "att_vm_laser_pstl07_v0", "att_vm_flashlight_pstl01_v0", "att_vm_flashlight_pstl02_v0"}
 }
 
 --NECESSARY: it loads custom attachments from other authors

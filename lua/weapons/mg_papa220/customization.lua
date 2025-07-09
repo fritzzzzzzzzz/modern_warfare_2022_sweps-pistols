@@ -31,14 +31,13 @@ SWEP.Customization = {
 
     {"attachment_vm_pi_papa220_mag", "attachment_vm_pi_papa220_mag_ext", "attachment_vm_pi_papa220_mag_ext2"},
 
-    {"att_muzzle", "attachment_vm_pi_papa320_silencer", "att_vm_flashhider01_pstl", "att_vm_compensator01_pstl", "att_vm_muzzlebrake01_pstl",
-    "att_vm_silencer01_pstl", "att_vm_silencer02_pstl", "att_vm_silencer04_pstl", "att_vm_oil_filter_suppressor"},
+    {"att_muzzle", "att_vm_comp_pi01_v0", "att_vm_comp_pi02_v0", "att_vm_comp_pi03_v0", "att_vm_comp_pi04_v0", "att_vm_comp_pi05_v0", "att_vm_comp_pi06_v0", "att_vm_flash_pi01_v0", "att_vm_flash_pi02_v0", "att_vm_melee_pi01_v0", "att_vm_silencer_pi01_v0", "att_vm_silencer_pi02_v0", "att_vm_silencer_pi03_v0", "att_vm_silencer_pi04_v0"},
 
-    {"att_sight", "att_vm_minireddot01", "att_vm_minireddot02", "att_vm_minireddot03"},
+    {"att_sight", "att_vm_minireddot01_pstl_v0", "att_vm_minireddot02_pstl_v0", "att_vm_minireddot03_pstl_v0", "att_vm_minireddot04_pstl_v0", "att_vm_minireddot05_pstl_v0", "att_vm_minireddot06_pstl_v0"},
 
     {"attachment_vm_pi_papa220_slide", "attachment_vm_pi_papa220_barshort", "attachment_vm_pi_papa220_barlong", "attachment_vm_pi_papa220_barlight", "attachment_vm_pi_papa220_barcomp",},
 
-    {"att_laser", "att_vm_pi_papa220_laser01", "att_vm_pi_papa220_laser02", "att_vm_pi_papa220_laser03", "attachment_vm_laser_pstl_shoothouse"}
+    {"att_laser", "att_vm_laser_pstl02_v0", "att_vm_laser_pstl05_v0", "att_vm_laser_pstl06_v0", "att_vm_laser_pstl07_v0", "att_vm_flashlight_pstl01_v0", "att_vm_flashlight_pstl02_v0"}
 }
 
 --NECESSARY: it loads custom attachments from other authors

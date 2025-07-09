@@ -10,9 +10,9 @@ ATTACHMENT.ExcludedAttachments = {"att_vm_2x_west02_holo", "att_vm_2x_west02", "
     "att_vm_4x_west01", "att_vm_4x_west02",
     "att_vm_scope_mike14", "att_vm_scope_vz", "att_vm_pi_golf18_stocklight","att_vm_pi_golf18_stockhvy","att_vm_pi_golf18_stocktac",  "att_vm_angledgrip01_glock","att_vm_angledgrip02_glock","att_vm_stubbygrip01_glock","att_vm_stubbygrip02_glock","att_vm_vertgrip01_glock","att_vm_vertgrip02_glock","att_vm_vertgrip03_glock"}
 ATTACHMENT.Conversion = {
-	[6] = {"att_sight", "att_vm_minireddot01", "att_vm_minireddot02", "att_vm_minireddot03"},
+	[6] = {"att_sight", "att_vm_minireddot01_pstl_v0", "att_vm_minireddot02_pstl_v0", "att_vm_minireddot03_pstl_v0", "att_vm_minireddot04_pstl_v0", "att_vm_minireddot05_pstl_v0", "att_vm_minireddot06_pstl_v0"},
 	[7] = {"att_vm_pi_golf18_slide","att_vm_pi_golf17_slide_long","att_vm_pi_golf17_slide_light"},
-	[9] = {"att_laser", "att_vm_laser01_pstl", "att_vm_laser02_pstl", "att_vm_laser03_pstl"},
+	[9] =     {"att_laser", "att_vm_laser_pstl02_v0", "att_vm_laser_pstl05_v0", "att_vm_laser_pstl06_v0", "att_vm_laser_pstl07_v0", "att_vm_flashlight_pstl01_v0", "att_vm_flashlight_pstl02_v0"}
 }
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)

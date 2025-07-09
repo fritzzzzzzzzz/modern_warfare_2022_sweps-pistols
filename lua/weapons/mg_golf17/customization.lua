@@ -29,16 +29,15 @@ SWEP.Customization = {
 
 	{"att_receiver"},
 
-    {"att_muzzle", "attachment_vm_pi_papa320_silencer", "att_vm_flashhider01_pstl", "att_vm_compensator01_pstl", "att_vm_muzzlebrake01_pstl",
-    "att_vm_silencer01_pstl", "att_vm_silencer02_pstl", "att_vm_silencer04_pstl", "att_vm_oil_filter_suppressor"},
+    {"att_muzzle", "att_vm_comp_pi01_v0", "att_vm_comp_pi02_v0", "att_vm_comp_pi03_v0", "att_vm_comp_pi04_v0", "att_vm_comp_pi05_v0", "att_vm_comp_pi06_v0", "att_vm_flash_pi01_v0", "att_vm_flash_pi02_v0", "att_vm_melee_pi01_v0", "att_vm_silencer_pi01_v0", "att_vm_silencer_pi02_v0", "att_vm_silencer_pi03_v0", "att_vm_silencer_pi04_v0"},
 
-    {"att_sight", "att_vm_minireddot01", "att_vm_minireddot02", "att_vm_minireddot03"},
+    {"att_sight", "att_vm_minireddot01_pstl_v0", "att_vm_minireddot02_pstl_v0", "att_vm_minireddot03_pstl_v0", "att_vm_minireddot04_pstl_v0", "att_vm_minireddot05_pstl_v0", "att_vm_minireddot06_pstl_v0"},
 
     {"att_vm_pi_golf17_slide","att_vm_pi_golf17_slide_long","att_vm_pi_golf17_slide_light"},
 
     {"att_vm_pi_golf17_mag", "att_vm_pi_golf17_mag_xmags", "att_vm_pi_golf17_mag_xmagslrg", "att_vm_pi_golf17_mag_drummag",},
 
-    {"att_laser", "att_vm_laser01_pstl", "att_vm_laser02_pstl", "att_vm_laser03_pstl"},
+    {"att_laser", "att_vm_laser_pstl02_v0", "att_vm_laser_pstl05_v0", "att_vm_laser_pstl06_v0", "att_vm_laser_pstl07_v0", "att_vm_flashlight_pstl01_v0", "att_vm_flashlight_pstl02_v0"},
 	
 	{"att_grip", "att_vm_angledgrip01_glock","att_vm_angledgrip02_glock","att_vm_stubbygrip01_glock","att_vm_stubbygrip02_glock","att_vm_vertgrip01_glock","att_vm_vertgrip02_glock","att_vm_vertgrip03_glock"},
 	
