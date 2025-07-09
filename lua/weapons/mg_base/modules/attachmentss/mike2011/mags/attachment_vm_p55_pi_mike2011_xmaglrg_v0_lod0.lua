@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_magazine"
 ATTACHMENT.Name = "26 Round Mags"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p55_pi_mike2011_xmaglrg_v0_lod0.mdl")
-ATTACHMENT.Icon = Material("zeron/weapons/icons/9mmdaemonicons/xmaglrg.vmt")
+ATTACHMENT.Icon = Material("fritz/attachments/icons/mike2011/icon_attachment_p55_pi_mike2011_xmaglrg_v0.vmt")
 
 ATTACHMENT.BulletList = {
     [0] = {"j_ammo_01"},

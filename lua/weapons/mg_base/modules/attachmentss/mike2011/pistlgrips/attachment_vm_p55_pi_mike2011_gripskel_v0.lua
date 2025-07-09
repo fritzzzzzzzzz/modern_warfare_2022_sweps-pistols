@@ -1,7 +1,8 @@
 ATTACHMENT.Base = "att_pistolgrip"
 ATTACHMENT.Name = "SGT Grip"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p55_pi_mike2011_gripskel_v0_lod0.mdl")
-ATTACHMENT.Icon = Material("zeron/weapons/icons/9mmdaemonicons/gripskele.vmt")
+ATTACHMENT.Icon = Material("fritz/attachments/icons/mike2011/icon_attachment_p55_pi_mike2011_gripskel_v0.vmt")
+
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 
 function ATTACHMENT:Stats(weapon)

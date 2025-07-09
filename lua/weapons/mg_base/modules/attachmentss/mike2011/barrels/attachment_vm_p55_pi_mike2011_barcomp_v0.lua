@@ -1,7 +1,7 @@
 ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "FT Competition"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p55_pi_mike2011_barcomp_v0_lod0.mdl")
-ATTACHMENT.Icon = Material("zeron/weapons/icons/9mmdaemonicons/barcomp.vmt")
+ATTACHMENT.Icon = Material("fritz/attachments/icons/mike2011/icon_attachment_p55_pi_mike2011_barcomp_v0.vmt")
 ATTACHMENT.ExcludedCategories = {"Muzzle Devices"}
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)

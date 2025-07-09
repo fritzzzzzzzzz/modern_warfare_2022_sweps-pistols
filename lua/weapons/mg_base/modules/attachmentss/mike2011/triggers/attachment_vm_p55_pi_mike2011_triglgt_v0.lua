@@ -1,8 +1,10 @@
 ATTACHMENT.Base = "att_trigger"
 ATTACHMENT.Name = "DEX8 Trigger"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p55_pi_mike2011_triglgt_v0_lod0.mdl")
-ATTACHMENT.Icon = Material("zeron/weapons/icons/9mmdaemonicons/triglgt.vmt")
+ATTACHMENT.Icon = Material("fritz/attachments/icons/mike2011/icon_attachment_p55_pi_mike2011_triglgt_v0.vmt")
+
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
     weapon.Recoil.AdsMultiplier = weapon.Recoil.AdsMultiplier * 0.9
