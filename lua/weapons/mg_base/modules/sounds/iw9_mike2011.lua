@@ -19,7 +19,7 @@ sound.Add({
 	channel = CHAN_WEAPON,
 	level = 140,
 	volume = 10,
-	pitch = {100,100},
+	pitch = {80,100},
 	sound = {
 		"^fritz/weapons/mike2011/fire/mixed/weap_mike2011_sup_plr_shot_01_mixed.ogg",
 		}

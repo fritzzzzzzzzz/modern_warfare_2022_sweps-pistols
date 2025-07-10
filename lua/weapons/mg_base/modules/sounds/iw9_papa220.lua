@@ -65,7 +65,36 @@ sound.Add({
 		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_06.wav",
 		}
 })
+sound.Add({
+	name = "p27_pi_papa220_fire_sup_atmo_out",
+	channel = CHAN_ATMO,
 
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_01.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_02.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_03.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_04.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_05.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_06.wav",
+		}
+})
+sound.Add({
+	name = "p27_pi_papa220_fire_sup_atmo_in",
+	channel = CHAN_ATMO,
+
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_01.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_02.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_03.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_04.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_05.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_06.wav",
+		}
+})
 sound.Add({
 	name = "p27_pi_papa220_fire_disconnector",
 	channel = CHAN_TRIGGER,
