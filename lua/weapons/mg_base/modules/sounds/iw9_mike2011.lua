@@ -15,6 +15,19 @@ sound.Add({
 })
 
 sound.Add({
+	name = "weap_mike2011_fire_plr_shot_ads",
+	channel = CHAN_WEAPON,
+	level = 140,
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"^fritz/weapons/mike2011/fire/mixed/weap_mike2011_fire_plr_shot_01_mixed_ads.ogg",
+		"^fritz/weapons/mike2011/fire/mixed/weap_mike2011_fire_plr_shot_02_mixed_ads.ogg",
+		"^fritz/weapons/mike2011/fire/mixed/weap_mike2011_fire_plr_shot_03_mixed_ads.ogg",
+		}
+})
+
+sound.Add({
 	name = "weap_mike2011_sup_plr_shot",
 	channel = CHAN_WEAPON,
 	level = 140,
@@ -27,17 +40,17 @@ sound.Add({
 
 sound.Add({
 	name = "mike2011_last_fire",
-	channel = CHAN_CHAN_WPNFOLEY,
+	channel = CHAN_WPNFOLEY,
 	level = 140,
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"^fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_01.ogg",
-		"^fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_02.ogg",
-		"^fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_03.ogg",
-		"^fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_01.ogg",
-		"^fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_02.ogg",
-		"^fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_03.ogg",
+		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_01.ogg",
+		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_02.ogg",
+		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_03.ogg",
+		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_01.ogg",
+		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_02.ogg",
+		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_03.ogg",
 		}
 })
 

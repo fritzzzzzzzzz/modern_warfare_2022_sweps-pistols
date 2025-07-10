@@ -69,7 +69,7 @@ sound.Add({
 		}
 })
 sound.Add({
-    name =           "ps_wfoly_plr_pi_tango9_drop_01ps_wfoly_plr_pi_tango9_drop_01_drop_01",
+    name =           "ps_wfoly_plr_pi_tango9_drop_01",
     channel =        CHAN_WPNFOLEY + 1,
     volume =         1,
     sound = {"kyo/mwii/iw9_tango9/p49_pi_tango9_drop.ogg"}
@@ -1557,4 +1557,18 @@ sound.Add({
     channel =        CHAN_WPNFOLEY + 213,
     volume =         1,
     sound = {"kyo/mwii/iw9_tango9/p49_pi_tango9_reload_xdrum_raise.ogg"}
+})
+
+sound.Add({
+    name =           "ps_wfoly_plr_pi_tango9_inspect_xdrum_03",
+    channel =        CHAN_WPNFOLEY + 214,
+    volume =         1,
+    sound = {"kyo/mwii/iw9_tango9/p49_pi_tango9_inspect_xdrum_mvmnt.ogg"}
+})
+
+sound.Add({
+    name =           "ps_wfoly_plr_pi_tango9_inspect_empty_06",
+    channel =        CHAN_WPNFOLEY + 215,
+    volume =         1,
+    sound = {"kyo/mwii/iw9_tango9/p49_pi_tango9_inspect_empty_boltpull.ogg"}
 })

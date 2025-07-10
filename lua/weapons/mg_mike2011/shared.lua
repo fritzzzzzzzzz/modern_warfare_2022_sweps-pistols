@@ -29,6 +29,7 @@ SWEP.Slot = 1
 SWEP.HoldType = "Pistol"
 
 SWEP.Primary.Sound = Sound("weap_mike2011_fire_plr_shot")
+SWEP.Primary.AdsSound = Sound("weap_mike2011_fire_plr_shot_ads")
 SWEP.Primary.Ammo = "Pistol"
 SWEP.Primary.ClipSize = 15
 SWEP.Primary.Automatic = false

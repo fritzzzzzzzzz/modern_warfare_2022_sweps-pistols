@@ -7,12 +7,35 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/papa220/weap_papa220_fire_plr_shot_01.ogg",
-		"zeron/papa220/weap_papa220_fire_plr_shot_02.ogg",
-		"zeron/papa220/weap_papa220_fire_plr_shot_03.ogg",
-		"zeron/papa220/weap_papa220_fire_plr_shot_04.ogg",
-		"zeron/papa220/weap_papa220_fire_plr_shot_05.ogg",
-		"zeron/papa220/weap_papa220_fire_plr_shot_06.ogg",
+		"^zeron/papa220/fire/mixed/weap_papa220_fire_plr_shot_01_mixed.ogg",
+	    "^zeron/papa220/fire/mixed/weap_papa220_fire_plr_shot_02_mixed.ogg",
+		"^zeron/papa220/fire/mixed/weap_papa220_fire_plr_shot_03_mixed.ogg",
+		}
+})
+
+sound.Add({
+	name = "p27_pi_papa220_fire_plr_ads",
+	channel = CHAN_WEAPON,
+	level = 140,
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"^zeron/papa220/fire/mixed/weap_papa220_fire_plr_shot_01_mixed_ads.ogg",
+		"^zeron/papa220/fire/mixed/weap_papa220_fire_plr_shot_02_mixed_ads.ogg",
+		"^zeron/papa220/fire/mixed/weap_papa220_fire_plr_shot_03_mixed_ads.ogg",
+		}
+})
+
+sound.Add({
+	name = "papa220_last_fire",
+	channel = CHAN_WPNFOLEY,
+	level = 140,
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/papa220/fire/weap_papa220_fire_plr_last_mech_01.ogg",
+		"zeron/papa220/fire/weap_papa220_fire_plr_last_mech_02.ogg",
+		"zeron/papa220/fire/weap_papa220_fire_plr_last_mech_03.ogg",
 		}
 })
 
@@ -23,24 +46,22 @@ sound.Add({
 	volume = 10,
 	pitch = {100,100},
 	sound = {
-		"zeron/papa220/weap_papa220_sup_plr_shot_01.ogg",
-		"zeron/papa220/weap_papa220_sup_plr_shot_02.ogg",
-		"zeron/papa220/weap_papa220_sup_plr_shot_03.ogg",
-		"zeron/papa220/weap_papa220_sup_plr_shot_04.ogg",
-		"zeron/papa220/weap_papa220_sup_plr_shot_05.ogg",
-		"zeron/papa220/weap_papa220_sup_plr_shot_06.ogg",
-		"zeron/papa220/weap_papa220_sup_plr_shot_07.ogg",
-		"zeron/papa220/weap_papa220_sup_plr_shot_08.ogg",
-	
+		"zeron/papa220/fire/weap_papa220_sup_plr_shot_01.ogg",
+		"zeron/papa220/fire/weap_papa220_sup_plr_shot_02.ogg",
+		"zeron/papa220/fire/weap_papa220_sup_plr_shot_03.ogg",
+		"zeron/papa220/fire/weap_papa220_sup_plr_shot_04.ogg",
+		"zeron/papa220/fire/weap_papa220_sup_plr_shot_05.ogg",
+		"zeron/papa220/fire/weap_papa220_sup_plr_shot_06.ogg",
+		"zeron/papa220/fire/weap_papa220_sup_plr_shot_07.ogg",
+		"zeron/papa220/fire/weap_papa220_sup_plr_shot_08.ogg",
 		}
 })
 
 sound.Add({
 	name = "p27_pi_papa220_fire_atmo_out",
 	channel = CHAN_ATMO,
-
 	volume = 1,
-	pitch = {100,100},
+	pitch = {80,100},
 	sound = {
 		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_01.wav",
 		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_02.wav",
@@ -70,7 +91,7 @@ sound.Add({
 	channel = CHAN_ATMO,
 
 	volume = 1,
-	pitch = {100,100},
+	pitch = {80,100},
 	sound = {
 		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_01.wav",
 		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_02.wav",
@@ -102,15 +123,29 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/papa220/weap_papa220_fcg_disconnector_plr_01.ogg",
-		"zeron/papa220/weap_papa220_fcg_disconnector_plr_02.ogg",
-		"zeron/papa220/weap_papa220_fcg_disconnector_plr_03.ogg",
-		"zeron/papa220/weap_papa220_fcg_disconnector_plr_04.ogg",
-		"zeron/papa220/weap_papa220_fcg_disconnector_plr_05.ogg",
-		"zeron/papa220/weap_papa220_fcg_disconnector_plr_06.ogg",
+		"zeron/papa220/fire/weap_papa220_fcg_disconnector_plr_01.ogg",
+		"zeron/papa220/fire/weap_papa220_fcg_disconnector_plr_02.ogg",
+		"zeron/papa220/fire/weap_papa220_fcg_disconnector_plr_03.ogg",
+		"zeron/papa220/fire/weap_papa220_fcg_disconnector_plr_04.ogg",
+		"zeron/papa220/fire/weap_papa220_fcg_disconnector_plr_05.ogg",
+		"zeron/papa220/fire/weap_papa220_fcg_disconnector_plr_06.ogg",
 		}
 })
--- Sound: 48
+
+sound.Add({
+	name = "weap_papa220_fire_plr_fcg",
+	channel = CHAN_WPNFOLEY,
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/papa220/fire/weap_papa220_fire_plr_fcg_01.ogg",
+		"zeron/papa220/fire/weap_papa220_fire_plr_fcg_02.ogg",
+		"zeron/papa220/fire/weap_papa220_fire_plr_fcg_03.ogg",
+		"zeron/papa220/fire/weap_papa220_fire_plr_fcg_04.ogg",
+		"zeron/papa220/fire/weap_papa220_fire_plr_fcg_05.ogg",
+		"zeron/papa220/fire/weap_papa220_fire_plr_fcg_06.ogg",
+		}
+})
 
 
 sound.Add({

@@ -21,7 +21,7 @@ SWEP.Spawnable = true
 SWEP.VModel = Model("models/zeron/v_papa220.mdl")
 SWEP.WorldModel = Model("models/zeron/w_papa220.mdl")
 SWEP.Trigger = {
-    PressedSound = Sound("weap_papa320_fire_first"),
+    PressedSound = Sound("weap_papa220_fire_plr_fcg"),
     ReleasedSound = Sound("p27_pi_papa220_fire_disconnector"),
     Time = 0.025
 }
@@ -36,6 +36,7 @@ SWEP.ParticleEffects = {
 }
  
 SWEP.Primary.Sound = Sound("p27_pi_papa220_fire_plr")
+SWEP.Primary.AdsSound = Sound("p27_pi_papa220_fire_plr_ads")
 SWEP.Primary.Ammo = "Pistol"  
 SWEP.Primary.ClipSize = 8 
 SWEP.Primary.Automatic = false 
