@@ -27,7 +27,7 @@ sound.Add({
 
 sound.Add({
 	name = "mike2011_last_fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_CHAN_WPNFOLEY,
 	level = 140,
 	volume = 1,
 	pitch = {100,100},

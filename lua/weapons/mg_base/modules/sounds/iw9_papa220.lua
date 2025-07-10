@@ -1143,16 +1143,16 @@ sound.Add({
 })
 
 sound.Add({
-    name =           "ps_wfoly_plr_pi_papa220_transition_reload_empty_01_01",
+    name =           "papa220_ads_up",
     channel =        CHAN_WPNFOLEY + 148,
     volume =         1,
-    sound = {"zeron/papa220/wfoly_plr_pi_papa220_transition_reload_empty_01_01.ogg"}
+    sound = {"zeron/papa220/wfoly_pi_mike1911_ads_up.ogg"}
 })
 
 sound.Add({
-    name =           "ps_wfoly_plr_pi_papa220_transition_reload_fast_01_01",
+    name =           "papa220_ads_down",
     channel =        CHAN_WPNFOLEY + 149,
     volume =         1,
-    sound = {"zeron/papa220/wfoly_plr_pi_papa220_transition_reload_fast_01_01.ogg"}
+    sound = {"zeron/papa220/wfoly_pi_mike1911_ads_down.ogg"}
 })
 

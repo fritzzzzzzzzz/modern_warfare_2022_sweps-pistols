@@ -36,9 +36,8 @@ sound.Add({
 })
 sound.Add({
 	name = "weap_golf17_disconnector_plr",
-	channel = CHAN_TRIGGER,
-	level = 140,
-	volume = 10,
+	channel = CHAN_WPNFOLEY +1,
+	volume = 1,
 	pitch = {100,100},
 	sound = {
 		"zeron/golf/weap_golf21_disconnector_plr_01.ogg",
@@ -52,9 +51,8 @@ sound.Add({
 
 sound.Add({
 	name = "weap_golf17_fire_first_plr",
-	channel = CHAN_TRIGGER,
-	level = 140,
-	volume = 10,
+	channel = CHAN_WPNFOLEY,
+	volume = 1,
 	pitch = {100,100},
 	sound = {
 		"zeron/golf/weap_golf21_fire_first_plr_01.ogg",
