@@ -1,8 +1,8 @@
 "VertexLitGeneric"
 {
-    "$basetexture" "models\kyo\mwii\p890\wpn_p27_pi_papa220_frame_v0_rgb"
-    "$bumpmap" "models\kyo\mwii\p890\wpn_p27_pi_papa220_frame_v0_n"
-    "$phongexponenttexture" "models\kyo\mwii\p890\wpn_p27_pi_papa220_frame_v0_e"
+    "$basetexture" "zeron\weapons\papa220\wpn_p27_pi_papa220_frame_v0_rgb"
+    "$bumpmap" "zeron\weapons\papa220\wpn_p27_pi_papa220_frame_v0_n"
+    "$phongexponenttexture" "zeron\weapons\papa220\wpn_p27_pi_papa220_frame_v0_e"
 
     /////////////////
     "$color2" "[0 0 0]"                                     //do not touch this

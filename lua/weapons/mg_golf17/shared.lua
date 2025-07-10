@@ -8,24 +8,24 @@ include("animations.lua")
 include("customization.lua")
 
 if CLIENT then
-    killicon.Add( "mg_iw9_golf18", "VGUI/entities/mg_iw9_golf18", Color(255, 0, 0, 255))
-    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_golf18_icon")
+    killicon.Add( "mg_golf17", "VGUI/entities/mg_golf17", Color(255, 0, 0, 255))
+    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_golf17_icon")
 end
 
 SWEP.Base = "mg_base"
 SWEP.GripPoseParameters = {"grip_gripvert_offset", "grip_gripang_offset"}
-SWEP.PrintName = "X13 Auto"
+SWEP.PrintName = "X12"
 SWEP.Category = "Modern Warfare II"
 SWEP.SubCategory = "Pistols"
 SWEP.Spawnable = true
-SWEP.VModel = Model("models/kyo/vm_pi_x13a.mdl")
-SWEP.WorldModel = Model("models/kyo/wm_pi_x13.mdl")
+SWEP.VModel = Model("models/kyo/vm_pi_x12.mdl")
+SWEP.WorldModel = Model("models/kyo/wm_pi_x12.mdl")
 SWEP.Trigger = {
     PressedSound = Sound("weap_golf17_fire_first_plr"),
     ReleasedSound = Sound("weap_golf17_disconnector_plr"),
     Time = 0.025
 }
-SWEP.Purpose = "The highly specialized, fully automatic trigger assembly of the X13 delivers a staggering 20 rounds per second while sacrificing a great deal of accuracy and effective range."
+SWEP.Purpose = "A light, semi-auto 9mm pistol with specialized and tactical modification options. The polymer frame keeps the weight down and the integrated rail allows laser attachments."
 SWEP.Slot = 1
 SWEP.HoldType = "Pistol"
 
@@ -38,10 +38,10 @@ SWEP.ParticleEffects = {
 SWEP.Primary.Sound = Sound("p24_pi_golf17_fire_plr")
 SWEP.Primary.Ammo = "Pistol"  
 SWEP.Primary.ClipSize = 17 
-SWEP.Primary.Automatic = true
+SWEP.Primary.Automatic = false 
 SWEP.Primary.BurstRounds = 1   
 SWEP.Primary.BurstDelay = 0
-SWEP.Primary.RPM = 1200
+SWEP.Primary.RPM = 364
 SWEP.CanChamberRound = true  
 SWEP.Author = "People With Commitment Issues"
 
@@ -64,7 +64,7 @@ SWEP.Reverb = {
 
 SWEP.Firemodes = {
     [1] = {
-        Name = "Full Auto",
+        Name = "Semi Auto",
         OnSet = function()
             return nil
         end
@@ -80,9 +80,9 @@ SWEP.BarrelSmoke = {
 }
 
 SWEP.Cone = {  
-    Hip = 0.25, --accuracy while hip
-    Ads = 0.4, --accuracy while aiming
-    Increase = 0.1, --increase cone size by this amount every time we shoot
+    Hip = 0.15, --accuracy while hip
+    Ads = 0.13, --accuracy while aiming
+    Increase = 0.06, --increase cone size by this amount every time we shoot
     AdsMultiplier = 0.14, --multiply the increase value by this amount while aiming
     Max = 1.16, --the cone size will not go beyond this size
     Decrease = 0.54, -- amount (in seconds) for the cone to completely reset (from max)
@@ -90,15 +90,15 @@ SWEP.Cone = {
 }
 
 SWEP.Recoil = {
-    Vertical = {1, 0.74}, --random value between the 2
-    Horizontal = {-0.2, 0.25}, --random value between the 2
+    Vertical = {0.13, 0.34}, --random value between the 2
+    Horizontal = {-0.067, 0.18}, --random value between the 2
     Shake = 1.36, --camera shake
-    AdsMultiplier = 0.7, --multiply the values by this amount while aiming
-    Seed = 7512335 --give this a random number until you like the current recoil pattern
+    AdsMultiplier = 0.47, --multiply the values by this amount while aiming
+    Seed = 610312 --give this a random number until you like the current recoil pattern
 }
 
 SWEP.Bullet = {
-    Damage = {23, 19}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
+    Damage = {29, 19}, --first value is damage at 0 meters from impact, second value is damage at furthest point in effective range
     DropOffStartRange = 10,
     EffectiveRange = 28, --in meters, damage scales within this distance
     Range = 100, --in meters, after this distance the bullet stops existing
@@ -137,8 +137,8 @@ SWEP.ViewModelOffsets = {
         Pos = Vector(0, 0, 0)
     },
 	Sprint = {
-        Angles = Angle(0, 0 ,0), 
-        Pos = Vector(0, 0, 0) 
+        Angles = Angle(0, 0, 0), 
+        Pos = Vector(0, 0 ,0) 
     }, 
     Inspection = {
         Bone = "tag_pistol_offset",
