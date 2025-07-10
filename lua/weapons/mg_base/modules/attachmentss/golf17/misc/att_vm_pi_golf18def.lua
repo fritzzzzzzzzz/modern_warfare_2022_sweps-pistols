@@ -1,5 +1,5 @@
 ATTACHMENT.Base = "att_conversion"
-ATTACHMENT.Name = "Lack Of Skill"
+ATTACHMENT.Name = "X13 Receiver"
 ATTACHMENT.Icon = Material("viper/mw/attachments/icons/golf21/icon_attachment_pi_golf21_stock.vmt")
 ATTACHMENT.ExcludedAttachments = {"att_vm_2x_west02_holo", "att_vm_2x_west02", "att_vm_reflex_02", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
     "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
