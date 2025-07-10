@@ -703,7 +703,7 @@ sound.Add({
 
 sound.Add({
     name =           "swhiskey_trig",
-    channel =        CHAN_WPNFOLEY + 69,
+    channel =        CHAN_WPNFOLEY,
     volume =         1,
     sound = {"zeron/swhiskey/fire/weap_swhiskey_fcg_prefire_plr_01.wav"}
 })

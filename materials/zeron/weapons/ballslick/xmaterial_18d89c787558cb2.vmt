@@ -16,7 +16,7 @@
     "$phongfresnelranges" "[1 2 3]"
 
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
-    "$rimlight" "1"
+    "$rimlight" "0"
     "$rimlightexponent" "100"
     "$rimmask" "1"
     "$rimlightboost" "1"
@@ -26,7 +26,7 @@
     /////////////////
 
     "$envmap" "zeron\weapons\ballslick\specularity_25"
-    "$envmaptint" "[0.733 0.308 0.158]"                  
+    "$envmaptint" "[0.633 0.378 0.158]"                   
 
     //remove this if not using MWB
     "Proxies"

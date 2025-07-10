@@ -46,22 +46,27 @@ sound.Add({
 	volume = 10,
 	pitch = {100,100},
 	sound = {
-		"zeron/papa220/fire/weap_papa220_sup_plr_shot_01.ogg",
-		"zeron/papa220/fire/weap_papa220_sup_plr_shot_02.ogg",
-		"zeron/papa220/fire/weap_papa220_sup_plr_shot_03.ogg",
-		"zeron/papa220/fire/weap_papa220_sup_plr_shot_04.ogg",
-		"zeron/papa220/fire/weap_papa220_sup_plr_shot_05.ogg",
-		"zeron/papa220/fire/weap_papa220_sup_plr_shot_06.ogg",
-		"zeron/papa220/fire/weap_papa220_sup_plr_shot_07.ogg",
-		"zeron/papa220/fire/weap_papa220_sup_plr_shot_08.ogg",
+		"^zeron/papa220/fire/mixed/weap_papa220_sup_plr_shot_01_mixed.ogg",
+		}
+})
+
+sound.Add({
+	name = "p27_pi_papa220_sup_plr_ads",
+	channel = CHAN_WEAPON,
+	level = 140,
+	volume = 10,
+	pitch = {100,100},
+	sound = {
+		"^zeron/papa220/fire/mixed/weap_papa220_sup_plr_shot_01_mixed_ads.ogg",
 		}
 })
 
 sound.Add({
 	name = "p27_pi_papa220_fire_atmo_out",
 	channel = CHAN_ATMO,
-	volume = 1,
-	pitch = {80,100},
+    level = 140,
+    pitch = {80,110},
+    volume =     0.5,
 	sound = {
 		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_01.wav",
 		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_02.wav",
@@ -74,7 +79,6 @@ sound.Add({
 sound.Add({
 	name = "p27_pi_papa220_fire_atmo_in",
 	channel = CHAN_ATMO,
-
 	volume = 1,
 	pitch = {100,100},
 	sound = {
@@ -86,12 +90,13 @@ sound.Add({
 		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_06.wav",
 		}
 })
+
 sound.Add({
 	name = "p27_pi_papa220_fire_sup_atmo_out",
 	channel = CHAN_ATMO,
-
-	volume = 1,
-	pitch = {80,100},
+    level = 140,
+    pitch = {80,110},
+    volume =     1,
 	sound = {
 		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_01.wav",
 		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_02.wav",
@@ -101,6 +106,7 @@ sound.Add({
 		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_06.wav",
 		}
 })
+
 sound.Add({
 	name = "p27_pi_papa220_fire_sup_atmo_in",
 	channel = CHAN_ATMO,
@@ -116,10 +122,10 @@ sound.Add({
 		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_06.wav",
 		}
 })
+
 sound.Add({
 	name = "p27_pi_papa220_fire_disconnector",
 	channel = CHAN_TRIGGER,
-
 	volume = 1,
 	pitch = {100,100},
 	sound = {

@@ -2,6 +2,7 @@ AddCSLuaFile()
 
 function SWEP:doSuppressorStats()
     self.Primary.Sound = Sound("p27_pi_papa220_sup_plr")
+    self.Primary.AdsSound = Sound("p27_pi_papa220_sup_plr_ads")
     self.Reverb = {
         RoomScale = 50000,
         Sounds = {

@@ -39,6 +39,18 @@ sound.Add({
 })
 
 sound.Add({
+	name = "weap_mike2011_sup_plr_shot_ads",
+	channel = CHAN_WEAPON,
+	level = 140,
+	volume = 10,
+	pitch = {80,100},
+	sound = {
+		"^fritz/weapons/mike2011/fire/mixed/weap_mike2011_sup_plr_shot_01_mixed_ads.ogg",
+		}
+})
+
+
+sound.Add({
 	name = "mike2011_last_fire",
 	channel = CHAN_WPNFOLEY,
 	level = 140,
