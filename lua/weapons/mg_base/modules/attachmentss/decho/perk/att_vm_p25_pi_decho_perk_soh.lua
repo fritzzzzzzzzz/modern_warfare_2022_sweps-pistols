@@ -1,6 +1,7 @@
 ATTACHMENT.Base = "att_perk_soh"
 ATTACHMENT.Icon = Material("easy/mw/attachments/icons/shared/icon_perk_warhead_patch.vmt")
 ATTACHMENT.Name = "Fast Hands"
+
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)

@@ -9,7 +9,7 @@ include("customization.lua")
 
 if CLIENT then
     killicon.Add( "mg_iw9_decho", "VGUI/entities/mg_iw9_decho", Color(255, 0, 0, 255))
-    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/spawnicons/icon_decho_mwii")
+    SWEP.WepSelectIcon = surface.GetTextureID("VGUI/spawnicons/icon_iw9_decho")
 end
   
 SWEP.GripPoseParameters = {"grip_gripvertshort_offset", "grip_cowboy_offset"}  
