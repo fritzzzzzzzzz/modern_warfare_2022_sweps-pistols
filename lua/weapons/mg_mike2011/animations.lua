@@ -122,7 +122,7 @@ SWEP.Animations = {
         Sequences = {"reload_xmaglrg"},
         Length = 2.4,
         Fps = 30,
-        MagLength = 1.75,
+        MagLength = 1.4,
         NextSequence = "Idle",
         Events = {
             {Time = 0.05, Callback = function(self) self:DoSound(Sound("MW19_M1911.Reload_Start")) end},
@@ -182,7 +182,7 @@ SWEP.Animations = {
         Sequences = {"reload_empty"},
         Length = 2.6,
         Fps = 30,
-        MagLength = 1.5,
+        MagLength = 1.4,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_M1911.Reload_Start_Empty")) end},
@@ -199,7 +199,7 @@ SWEP.Animations = {
         Sequences = {"reload_empty_barcomp"},
         Length = 2.6,
         Fps = 30,
-        MagLength = 1.5,
+        MagLength = 1.4,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_M1911.Reload_Start_Empty")) end},
@@ -233,7 +233,7 @@ SWEP.Animations = {
         Sequences = {"reload_xmaglrg_empty_barcomp"},
         Length = 3,
         Fps = 30,
-        MagLength = 1.5,
+        MagLength = 1.4,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_M1911.Reload_Start_Empty")) end},
@@ -266,7 +266,7 @@ SWEP.Animations = {
         Sequences = {"reload_xmaglrg_empty"},
         Length = 3,
         Fps = 30,
-        MagLength = 1.5,
+        MagLength = 1.4,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_M1911.Reload_Start_Empty")) end},
