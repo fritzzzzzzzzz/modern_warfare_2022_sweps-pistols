@@ -19,7 +19,7 @@ sound.Add({
 	pitch = {100,100},
 	sound = {
 		"^zeron/golf/weap_golf17_sup_plr_shot_01.wav",
-	
+
 		}
 })
 
@@ -42,7 +42,6 @@ sound.Add({
 	pitch = {100,100},
 	sound = {
 		"^zeron/golf/weap_golf17_sup_plr_shot_01_ads.wav",
-	
 		}
 })
 

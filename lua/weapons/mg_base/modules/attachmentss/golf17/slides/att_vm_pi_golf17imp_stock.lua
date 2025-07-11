@@ -1,8 +1,6 @@
-ATTACHMENT.Base = "att_conversion"
+ATTACHMENT.Base = "att_barrel_conversion"
 ATTACHMENT.Name = "Impact Point"
 ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_impactpoint.vmt")
-ATTACHMENT.ExcludedAttachments = {"att_vm_pi_golf17skel_stock"}
-ATTACHMENT.ExcludedCategories = {"Barrels"}
 ATTACHMENT.Conversion = {
 	[6] = {"att_sight", "att_vm_2x_west02_holo", "att_vm_2x_west02", "att_vm_reflex_02", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
     "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
@@ -10,10 +8,15 @@ ATTACHMENT.Conversion = {
     "att_vm_thermal_east01", "att_vm_thermal_west01","att_vm_reflex_west04", "att_vm_2x_west01", "att_vm_4x_east01",
     "att_vm_4x_west01", "att_vm_4x_west02",
     "att_vm_scope_mike14", "att_vm_scope_vz"},
+	
 	[7] = {"att_vm_pi_romeo18_slide"},
+	
 	[9] = {"att_laser", "att_vm_laser01", "att_vm_laser02", "att_vm_laser03"},
 }
+ATTACHMENT.ExcludedAttachments = {"att_vm_pi_golf17skel_stock"}
+
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
+
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
     weapon.ViewModelOffsets.Idle.Pos = Vector(0, 1.2, -0.1)

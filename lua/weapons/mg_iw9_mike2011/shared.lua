@@ -8,7 +8,7 @@ include("animations.lua")
 include("customization.lua")
 
 if CLIENT then
-    killicon.Add( "mg_mike2011", "VGUI/entities/mg_mike2011", Color(255, 0, 0, 255))
+    killicon.Add( "mg_iw9_mike2011", "VGUI/entities/mg_iw9_mike2011", Color(255, 0, 0, 255))
     SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_mike2011_killicon")
 end
 

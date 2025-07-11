@@ -10,7 +10,7 @@ require("mw_utils")
 mw_utils.LoadInjectors(SWEP)  
 
 if CLIENT then
-    killicon.Add( "mg_swhiskey", "VGUI/entities/mg_swhiskey", Color(255, 0, 0, 255))
+    killicon.Add( "mg_iw9_swhiskey", "VGUI/entities/mg_iw9_swhiskey", Color(255, 0, 0, 255))
     SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_swhiskey_icon")
 end
 
