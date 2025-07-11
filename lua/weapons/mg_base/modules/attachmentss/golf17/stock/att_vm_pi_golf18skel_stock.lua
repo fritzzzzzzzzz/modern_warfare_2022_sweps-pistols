@@ -18,5 +18,5 @@ end
 
 function ATTACHMENT:PostProcess(weapon)
     BaseClass.PostProcess(self, weapon)
-    weapon:SetViewModel("models/kyo/vm_pi_x13a_skelstock.mdl")
+    weapon:SetViewModel("models/easy/mw/weapons/vm_iw9_golf18_stock.mdl")
 end

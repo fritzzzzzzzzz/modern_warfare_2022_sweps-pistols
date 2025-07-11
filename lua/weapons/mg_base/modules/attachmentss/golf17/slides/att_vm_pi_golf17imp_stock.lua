@@ -16,21 +16,23 @@ ATTACHMENT.Conversion = {
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
-	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(-0.42, -6, -0.80)
     weapon.ViewModelOffsets.Idle.Pos = Vector(0, 1.2, -0.1)
-	weapon.ViewModelOffsets.Sprint.Pos = weapon.ViewModelOffsets.Sprint.Pos + Vector(-2, -2, -1)
     weapon.Zoom.Blur.EyeFocusDistance = 10
     weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.9
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.9
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.85
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.85
-	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0.41, 0, -0.185)
+	
+    if (!weapon:HasAttachment("att_sight")) then	
+		weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0, 0, -0)
+		else
+		weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0, -2, -1)
+	end
 end
 
 function ATTACHMENT:PostProcess(weapon)
     BaseClass.PostProcess(self, weapon)
-    weapon:SetViewModel("models/kyo/vm_pi_x12_genshinimpactbar.mdl")
+    weapon:SetViewModel("models/easy/mw/weapons/vm_iw9_golf17_conv.mdl")
 	weapon.WorldModel = Model("models/kyo/wm_pi_x12_impbar.mdl")
 	weapon.WorldModelOffsets.Pos = weapon.WorldModelOffsets.Pos + Vector(-1, 1, -1)
-	weapon.HoldType = "Rifle"
 end

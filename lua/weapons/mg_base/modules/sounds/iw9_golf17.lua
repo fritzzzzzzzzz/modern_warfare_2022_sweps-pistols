@@ -7,12 +7,7 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/golf/weap_golf17_fire_plr_shot_01.ogg",
-		"zeron/golf/weap_golf17_fire_plr_shot_02.ogg",
-		"zeron/golf/weap_golf17_fire_plr_shot_03.ogg",
-		"zeron/golf/weap_golf17_fire_plr_shot_04.ogg",
-		"zeron/golf/weap_golf17_fire_plr_shot_05.ogg",
-		"zeron/golf/weap_golf17_fire_plr_shot_06.ogg",
+		"^zeron/golf/weap_golf17_fire_plr_shot_01.wav",
 		}
 })
 
@@ -23,21 +18,62 @@ sound.Add({
 	volume = 10,
 	pitch = {100,100},
 	sound = {
-		"zeron/golf/weap_golf17_sup_plr_shot_01.ogg",
-		"zeron/golf/weap_golf17_sup_plr_shot_02.ogg",
-		"zeron/golf/weap_golf17_sup_plr_shot_03.ogg",
-		"zeron/golf/weap_golf17_sup_plr_shot_04.ogg",
-		"zeron/golf/weap_golf17_sup_plr_shot_05.ogg",
-		"zeron/golf/weap_golf17_sup_plr_shot_06.ogg",
-		"zeron/golf/weap_golf17_sup_plr_shot_07.ogg",
-		"zeron/golf/weap_golf17_sup_plr_shot_08.ogg",
+		"^zeron/golf/weap_golf17_sup_plr_shot_01.wav",
 	
 		}
 })
+
+sound.Add({
+	name = "p24_pi_golf17_fire_plr_ads",
+	channel = CHAN_WEAPON,
+	level = 140,
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"^zeron/golf/weap_golf17_fire_plr_shot_01_ads.wav",
+		}
+})
+
+sound.Add({
+	name = "p24_pi_golf17_sup_plr_ads",
+	channel = CHAN_WEAPON,
+	level = 140,
+	volume = 10,
+	pitch = {100,100},
+	sound = {
+		"^zeron/golf/weap_golf17_sup_plr_shot_01_ads.wav",
+	
+		}
+})
+
+-- Sound: 58
+sound.Add({
+	name = "weap_pi_golf17_ads_down",
+	channel = CHAN_WPNFOLEY + 6,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"reloads/iw8_golf21/wfoly_pi_golf21_ads_down.ogg",
+		}
+})
+-- Sound: 59
+sound.Add({
+	name = "weap_pi_golf17_ads_up",
+	channel = CHAN_WPNFOLEY + 7,
+	
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"reloads/iw8_golf21/wfoly_pi_golf21_ads_up.ogg",
+		}
+})
+
 sound.Add({
 	name = "weap_golf17_disconnector_plr",
-	channel = CHAN_WPNFOLEY +1,
-	volume = 1,
+	channel = CHAN_TRIGGER,
+	level = 140,
+	volume = 10,
 	pitch = {100,100},
 	sound = {
 		"zeron/golf/weap_golf21_disconnector_plr_01.ogg",
@@ -51,8 +87,9 @@ sound.Add({
 
 sound.Add({
 	name = "weap_golf17_fire_first_plr",
-	channel = CHAN_WPNFOLEY,
-	volume = 1,
+	channel = CHAN_TRIGGER,
+	level = 140,
+	volume = 10,
 	pitch = {100,100},
 	sound = {
 		"zeron/golf/weap_golf21_fire_first_plr_01.ogg",

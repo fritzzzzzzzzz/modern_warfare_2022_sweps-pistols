@@ -8,7 +8,7 @@ include("animations.lua")
 include("customization.lua")
 
 if CLIENT then
-    killicon.Add( "mg_golf18", "VGUI/entities/mg_golf18", Color(255, 0, 0, 255))
+    killicon.Add( "mg_iw9_golf18", "VGUI/entities/mg_iw9_golf18", Color(255, 0, 0, 255))
     SWEP.WepSelectIcon = surface.GetTextureID("VGUI/entities/mg_golf18_icon")
 end
 
@@ -18,7 +18,7 @@ SWEP.PrintName = "X13 Auto"
 SWEP.Category = "Modern Warfare II"
 SWEP.SubCategory = "Pistols"
 SWEP.Spawnable = true
-SWEP.VModel = Model("models/kyo/vm_pi_x13a.mdl")
+SWEP.VModel = Model("models/easy/mw/weapons/vm_iw9_golf18.mdl")
 SWEP.WorldModel = Model("models/kyo/wm_pi_x13.mdl")
 SWEP.Trigger = {
     PressedSound = Sound("weap_golf17_fire_first_plr"),
@@ -36,14 +36,16 @@ SWEP.ParticleEffects = {
 }
  
 SWEP.Primary.Sound = Sound("p24_pi_golf17_fire_plr")
+SWEP.Primary.AdsSound = Sound("p24_pi_golf17_fire_plr_ads")
 SWEP.Primary.Ammo = "Pistol"  
 SWEP.Primary.ClipSize = 17 
 SWEP.Primary.Automatic = true
 SWEP.Primary.BurstRounds = 1   
 SWEP.Primary.BurstDelay = 0
-SWEP.Primary.RPM = 1200
+SWEP.Primary.RPM = 923
 SWEP.CanChamberRound = true  
 SWEP.Author = "People With Commitment Issues"
+SWEP.FreezeInspectDelta = 0.2
 
 SWEP.Reverb = {
     RoomScale = 50000, --(cubic hu)

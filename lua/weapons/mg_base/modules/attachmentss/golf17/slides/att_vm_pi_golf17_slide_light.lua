@@ -1,5 +1,5 @@
 
-ATTACHMENT.Base = "att_vm_pi_golf21_slide"
+ATTACHMENT.Base = "att_barrel"
 ATTACHMENT.Name = "XRX LUC-9"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf17_barlight.mdl")
 ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_barlight.vmt")
