@@ -102,7 +102,7 @@ sound.Add({
 
 sound.Add({
 	name = "p24_pi_golf17_drop_01",
-	channel = CHAN_WPNFOLEY + 4,
+	channel = CHAN_WPNFOLEY + 1,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -113,7 +113,7 @@ sound.Add({
 -- Sound: 68
 sound.Add({
 	name = "p24_pi_golf17_raise_01",
-	channel = CHAN_WPNFOLEY + 5,
+	channel = CHAN_WPNFOLEY + 2,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -124,7 +124,7 @@ sound.Add({
 -- Sound: 69
 sound.Add({
 	name = "p24_pi_golf17_inspect_01",
-	channel = CHAN_WPNFOLEY + 5,
+	channel = CHAN_WPNFOLEY + 3,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -135,7 +135,7 @@ sound.Add({
 -- Sound: 70
 sound.Add({
 	name = "p24_pi_golf17_inspect_02",
-	channel = CHAN_WPNFOLEY + 6,
+	channel = CHAN_WPNFOLEY + 4,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -146,7 +146,7 @@ sound.Add({
 -- Sound: 71
 sound.Add({
 	name = "p24_pi_golf17_inspect_03",
-	channel = CHAN_WPNFOLEY + 7,
+	channel = CHAN_WPNFOLEY + 5,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -157,7 +157,7 @@ sound.Add({
 -- Sound: 72
 sound.Add({
 	name = "p24_pi_golf17_inspect_04",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 6,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -167,7 +167,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_05",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 7,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -187,7 +187,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_07",
-	channel = CHAN_WPNFOLEY + 6,
+	channel = CHAN_WPNFOLEY + 9,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -197,7 +197,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_08",
-	channel = CHAN_WPNFOLEY + 12,
+	channel = CHAN_WPNFOLEY + 10,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -207,7 +207,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_09",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 11,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -217,7 +217,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_turn",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 12,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -227,7 +227,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_01",
-	channel = CHAN_WPNFOLEY + 5,
+	channel = CHAN_WPNFOLEY + 13,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -238,7 +238,7 @@ sound.Add({
 -- Sound: 70
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_02",
-	channel = CHAN_WPNFOLEY + 6,
+	channel = CHAN_WPNFOLEY + 14,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -249,7 +249,7 @@ sound.Add({
 -- Sound: 71
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_03",
-	channel = CHAN_WPNFOLEY + 7,
+	channel = CHAN_WPNFOLEY + 15,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -260,7 +260,7 @@ sound.Add({
 -- Sound: 72
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_04",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 16,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -270,7 +270,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_05",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 17,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -280,7 +280,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_06",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 18,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -290,7 +290,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_07",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 19,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -300,7 +300,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_08",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 20,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -310,7 +310,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_09",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 21,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -320,7 +320,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_10",
-	channel = CHAN_WPNFOLEY + 9,
+	channel = CHAN_WPNFOLEY + 22,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -330,7 +330,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_empt_11",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 23,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -341,7 +341,7 @@ sound.Add({
 -- Sound: 73
 sound.Add({
 	name = "p24_pi_golf17_reload_01",
-	channel = CHAN_WPNFOLEY + 9,
+	channel = CHAN_WPNFOLEY + 24,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -352,7 +352,7 @@ sound.Add({
 -- Sound: 74
 sound.Add({
 	name = "p24_pi_golf17_reload_02",
-	channel = CHAN_WPNFOLEY + 10,
+	channel = CHAN_WPNFOLEY + 25,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -363,7 +363,7 @@ sound.Add({
 -- Sound: 75
 sound.Add({
 	name = "p24_pi_golf17_reload_03",
-	channel = CHAN_WPNFOLEY + 1,
+	channel = CHAN_WPNFOLEY + 26,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -374,7 +374,7 @@ sound.Add({
 -- Sound: 76
 sound.Add({
 	name = "p24_pi_golf17_reload_04",
-	channel = CHAN_WPNFOLEY + 2,
+	channel = CHAN_WPNFOLEY + 27,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -385,7 +385,7 @@ sound.Add({
 -- Sound: 77
 sound.Add({
 	name = "p24_pi_golf17_reload_045",
-	channel = CHAN_WPNFOLEY + 6,
+	channel = CHAN_WPNFOLEY + 28,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -396,7 +396,7 @@ sound.Add({
 -- Sound: 78
 sound.Add({
 	name = "p24_pi_golf17_reload_05",
-	channel = CHAN_WPNFOLEY + 4,
+	channel = CHAN_WPNFOLEY + 29,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -407,7 +407,7 @@ sound.Add({
 -- Sound: 79
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_01",
-	channel = CHAN_WPNFOLEY + 5,
+	channel = CHAN_WPNFOLEY + 30,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -418,7 +418,7 @@ sound.Add({
 -- Sound: 80
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_02",
-	channel = CHAN_WPNFOLEY + 6,
+	channel = CHAN_WPNFOLEY + 31,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -429,7 +429,7 @@ sound.Add({
 -- Sound: 81
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_03",
-	channel = CHAN_WPNFOLEY + 7,
+	channel = CHAN_WPNFOLEY + 32,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -440,7 +440,7 @@ sound.Add({
 -- Sound: 82
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_04",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 33,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -451,7 +451,7 @@ sound.Add({
 -- Sound: 83
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_05",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 34,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -462,7 +462,7 @@ sound.Add({
 -- Sound: 84
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_055",
-	channel = CHAN_WPNFOLEY + 10,
+	channel = CHAN_WPNFOLEY + 35,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -473,7 +473,7 @@ sound.Add({
 -- Sound: 85
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_06",
-	channel = CHAN_WPNFOLEY + 1,
+	channel = CHAN_WPNFOLEY + 36,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -488,7 +488,7 @@ sound.Add({
 -- Sound: 107
 sound.Add({
 	name = "p24_pi_golf17_reload_fast_raise",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 37,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -499,7 +499,7 @@ sound.Add({
 -- Sound: 108
 sound.Add({
 	name = "p24_pi_golf17_reload_fast_mag_out",
-	channel = CHAN_WPNFOLEY + 1,
+	channel = CHAN_WPNFOLEY + 38,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -510,7 +510,7 @@ sound.Add({
 -- Sound: 109
 sound.Add({
 	name = "p24_pi_golf17_reload_fast_mag_hit",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 39,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -520,7 +520,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_fast_mag_in",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 40,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -532,7 +532,7 @@ sound.Add({
 -- Sound: 117
 sound.Add({
 	name = "p24_pi_golf17_reload_drum_raise",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 41,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -543,7 +543,7 @@ sound.Add({
 -- Sound: 118
 sound.Add({
 	name = "p24_pi_golf17_reload_xmag_raise",
-	channel = CHAN_WPNFOLEY + 4,
+	channel = CHAN_WPNFOLEY + 42,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -554,7 +554,7 @@ sound.Add({
 -- Sound: 119
 sound.Add({
 	name = "p24_pi_golf17_reload_xmaglrg_raise",
-	channel = CHAN_WPNFOLEY + 5,
+	channel = CHAN_WPNFOLEY + 43,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -564,7 +564,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_drum_mag_find_well",
-	channel = CHAN_WPNFOLEY + 16,
+	channel = CHAN_WPNFOLEY + 44,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -574,7 +574,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_drum_mag_pull_out",
-	channel = CHAN_WPNFOLEY + 16,
+	channel = CHAN_WPNFOLEY + 45,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -584,7 +584,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_drum_mag_in",
-	channel = CHAN_WPNFOLEY + 6,
+	channel = CHAN_WPNFOLEY + 46,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -594,7 +594,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_drum_mag_pull_out",
-	channel = CHAN_WPNFOLEY + 16,
+	channel = CHAN_WPNFOLEY + 47,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -604,7 +604,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_drum_mag_release",
-	channel = CHAN_WPNFOLEY + 16,
+	channel = CHAN_WPNFOLEY + 48,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -614,7 +614,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_xmaglrg_mag_find_well",
-	channel = CHAN_WPNFOLEY + 16,
+	channel = CHAN_WPNFOLEY + 49,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -624,7 +624,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_xmaglrg_mag_hit",
-	channel = CHAN_WPNFOLEY + 16,
+	channel = CHAN_WPNFOLEY + 50,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -634,7 +634,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_xmaglrg_mag_release",
-	channel = CHAN_WPNFOLEY + 2,
+	channel = CHAN_WPNFOLEY + 51,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -644,7 +644,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_xmaglrg_mag_out",
-	channel = CHAN_WPNFOLEY + 6,
+	channel = CHAN_WPNFOLEY + 52,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -654,7 +654,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_xmaglrg_mag_in",
-	channel = CHAN_WPNFOLEY + 9,
+	channel = CHAN_WPNFOLEY + 53,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -664,7 +664,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_xmaglrg_mag_out",
-	channel = CHAN_WPNFOLEY + 16,
+	channel = CHAN_WPNFOLEY + 54,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -674,7 +674,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_empty_drum_mag_release_down",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 55,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -684,7 +684,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_drum_end",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 56,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -694,7 +694,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_fast_drum_mag_release_down",
-	channel = CHAN_WPNFOLEY + 3,
+	channel = CHAN_WPNFOLEY + 57,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -704,7 +704,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_fast_drum_mag_release_up",
-	channel = CHAN_WPNFOLEY + 5,
+	channel = CHAN_WPNFOLEY + 58,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -714,7 +714,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_reload_empty_fast_slide_release",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 59,
 	
 	volume = 1,
 	pitch = {100,100},
@@ -724,7 +724,7 @@ sound.Add({
 })
 sound.Add({
 	name = "p24_pi_golf17_inspect_empty_drum_mag_mvmnt",
-	channel = CHAN_WPNFOLEY + 8,
+	channel = CHAN_WPNFOLEY + 60,
 	
 	volume = 1,
 	pitch = {100,100},

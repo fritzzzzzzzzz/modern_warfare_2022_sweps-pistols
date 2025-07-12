@@ -59,9 +59,9 @@ SWEP.Animations = {
 
     ["Reload"] = {
         Sequences = {"reload"},
-        Length = 1.5,
+        Length = 2.1,
         Fps = 30,
-        MagLength = 1.03,
+        MagLength = 1.23,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start")) end},
