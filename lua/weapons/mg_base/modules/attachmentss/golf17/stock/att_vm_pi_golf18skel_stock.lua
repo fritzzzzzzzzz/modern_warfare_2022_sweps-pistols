@@ -6,8 +6,8 @@ local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
 	weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0, -8, 0)
-    weapon.ViewModelOffsets.Idle.Pos = Vector(0, 1.2, -0.1)
-	weapon.ViewModelOffsets.Sprint.Pos = weapon.ViewModelOffsets.Sprint.Pos + Vector(-2, -1, -1)
+    weapon.ViewModelOffsets.Idle.Pos = Vector(0, 0, 0)
+	weapon.ViewModelOffsets.Sprint.Pos = weapon.ViewModelOffsets.Sprint.Pos + Vector(0, 0, 0)
     weapon.Zoom.Blur.EyeFocusDistance = 10
     weapon.Animations.Ads_Out.Fps = weapon.Animations.Ads_Out.Fps * 0.9
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.9
