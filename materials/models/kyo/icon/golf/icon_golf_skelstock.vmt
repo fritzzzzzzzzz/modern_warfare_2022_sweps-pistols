@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "models/kyo/icon/golf/icon_golf_skelstock"
+	"$basetexture" "models/kyo/icon/golf/icon_attachment_p24_pi_golf17_stockskel_v0"
 	"$nolod" 1
 	"$vertexalpha" 1
 	"$vertexcolor" 1

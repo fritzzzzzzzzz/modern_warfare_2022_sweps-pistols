@@ -57,12 +57,12 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_01.ogg",
-		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_02.ogg",
-		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_03.ogg",
-		--"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_01.ogg",
-		--"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_02.ogg",
-		--"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_03.ogg",
+		--"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_01.ogg",
+		--"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_02.ogg",
+		--"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_03.ogg",
+		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_01.ogg",
+		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_02.ogg",
+		"fritz/weapons/mike2011/fire/weap_mike2011_fire_plr_last_mech_ads_03.ogg",
 		}
 })
 
