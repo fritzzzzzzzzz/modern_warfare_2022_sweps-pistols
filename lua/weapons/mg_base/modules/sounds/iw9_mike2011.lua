@@ -3,7 +3,7 @@
 
 sound.Add({
 	name = "weap_mike2011_fire_plr_shot",
-	channel = CHAN_WEAPON,
+	channel = CHAN_WEAPON + 1,
 	level = 140,
 	volume = 1,
 	pitch = {100,100},
@@ -16,7 +16,7 @@ sound.Add({
 
 sound.Add({
 	name = "weap_mike2011_fire_plr_shot_ads",
-	channel = CHAN_WEAPON,
+	channel = CHAN_WEAPON + 2,
 	level = 140,
 	volume = 1,
 	pitch = {100,100},
@@ -29,7 +29,7 @@ sound.Add({
 
 sound.Add({
 	name = "weap_mike2011_sup_plr_shot",
-	channel = CHAN_WEAPON,
+	channel = CHAN_WEAPON + 3,
 	level = 140,
 	volume = 10,
 	pitch = {80,100},
@@ -40,7 +40,7 @@ sound.Add({
 
 sound.Add({
 	name = "weap_mike2011_sup_plr_shot_ads",
-	channel = CHAN_WEAPON,
+	channel = CHAN_WEAPON + 4,
 	level = 140,
 	volume = 10,
 	pitch = {80,100},

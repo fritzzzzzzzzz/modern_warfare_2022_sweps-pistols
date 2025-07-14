@@ -625,7 +625,7 @@ sound.Add({
 
 sound.Add({
 	name = "swhiskey_fire",
-	channel = CHAN_WEAPON,
+	channel = CHAN_WEAPON + 1,
 	level = 140,
 	volume = 1,
 	pitch = {80,110},

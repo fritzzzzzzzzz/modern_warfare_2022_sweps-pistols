@@ -2,7 +2,7 @@
 -- Sound: 16
 sound.Add({
 	name = "p27_pi_papa220_fire_plr",
-	channel = CHAN_WEAPON,
+	channel = CHAN_WEAPON + 1,
 	level = 140,
 	volume = 1,
 	pitch = {100,100},
@@ -15,7 +15,7 @@ sound.Add({
 
 sound.Add({
 	name = "p27_pi_papa220_fire_plr_ads",
-	channel = CHAN_WEAPON,
+	channel = CHAN_WEAPON + 2,
 	level = 140,
 	volume = 1,
 	pitch = {100,100},
@@ -41,7 +41,7 @@ sound.Add({
 
 sound.Add({
 	name = "p27_pi_papa220_sup_plr",
-	channel = CHAN_WEAPON,
+	channel = CHAN_WEAPON + 1,
 	level = 140,
 	volume = 10,
 	pitch = {100,100},
@@ -52,7 +52,7 @@ sound.Add({
 
 sound.Add({
 	name = "p27_pi_papa220_sup_plr_ads",
-	channel = CHAN_WEAPON,
+	channel = CHAN_WEAPON + 2,
 	level = 140,
 	volume = 10,
 	pitch = {100,100},

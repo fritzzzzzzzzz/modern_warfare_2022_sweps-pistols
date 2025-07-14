@@ -2,7 +2,7 @@
 -- Sound: 16
 sound.Add({
 	name = "ps_wfoly_plr_pi_tango9_fire_plr",
-	channel = CHAN_WEAPON,
+	channel = CHAN_WEAPON + 1,
 	level = 140,
 	volume = 1,
 	pitch = {100,100},
@@ -20,7 +20,7 @@ sound.Add({
 
 sound.Add({
 	name = "ps_wfoly_plr_pi_tango9_sup_plr",
-	channel = CHAN_WEAPON,
+	channel = CHAN_WEAPON + 2,
 	level = 140,
 	volume = 10,
 	pitch = {100,100},
@@ -39,7 +39,7 @@ sound.Add({
 
 sound.Add({
 	name = "ps_wfoly_plr_pi_tango9_fire_disconnector",
-	channel = CHAN_WPNFOLEY +1,
+	channel = CHAN_WPNFOLEY + 1,
 	volume = 1,
 	pitch = {100,100},
 	sound = {
