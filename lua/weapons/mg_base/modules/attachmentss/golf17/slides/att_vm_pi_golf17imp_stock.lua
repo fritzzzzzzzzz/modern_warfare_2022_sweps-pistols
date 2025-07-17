@@ -10,8 +10,7 @@ ATTACHMENT.Conversion = {
 	
 	[7] = {"att_vm_pi_romeo18_slide"},
 	
-	[9] = {"att_laser", "att_vm_laser_pstl02_v0", "att_vm_laser_pstl05_v0", "att_vm_laser_pstl06_v0", "att_vm_laser_pstl07_v0", "att_vm_flashlight_pstl01_v0", "att_vm_flashlight_pstl02_v0", "att_vm_laser01", 
-	"att_vm_laser02", "att_vm_laser03"},
+	[9] = {"att_laser", "att_vm_laser_pstl02_v0", "att_vm_laser_pstl05_v0", "att_vm_laser_pstl06_v0", "att_vm_laser_pstl07_v0", "att_vm_flashlight_pstl01_v0", "att_vm_flashlight_pstl02_v0"},
 }
 ATTACHMENT.ExcludedAttachments = {"att_vm_pi_golf17skel_stock"}
 

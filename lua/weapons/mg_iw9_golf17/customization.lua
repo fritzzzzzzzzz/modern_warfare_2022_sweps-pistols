@@ -42,9 +42,9 @@ SWEP.Customization = {
 	
 	{"att_grip", "att_vm_angledgrip01_glock","att_vm_angledgrip02_glock","att_vm_stubbygrip01_glock","att_vm_stubbygrip02_glock","att_vm_vertgrip01_glock","att_vm_vertgrip02_glock","att_vm_vertgrip03_glock"},
 	
-	{"att_trigger_golf", "attachment_vm_pi_golf_hairtrigg", "attachment_vm_pi_golf_hvytrigg", "attachment_vm_pi_golf_lighttrigg", },
+	{"att_trigger_golf", "attachment_vm_pi_golf_hairtrigg", "attachment_vm_pi_golf_hvytrigg", "attachment_vm_pi_golf_lighttrigg"},
 	
-	{"att_reargrip_golf", "attachment_vm_pi_golf_pgripass", "attachment_vm_pi_golf_pgripstdy", "attachment_vm_pi_golf_pistgriptac", },
+	{"att_reargrip_golf", "attachment_vm_pi_golf_pgripass", "attachment_vm_pi_golf_pgripstdy", "attachment_vm_pi_golf_pistgriptac"},
 }
 
 --NECESSARY: it loads custom attachments from other authors
