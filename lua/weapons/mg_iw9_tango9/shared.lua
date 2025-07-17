@@ -22,7 +22,7 @@ SWEP.VModel = Model("models/kyo/v_tango9.mdl")
 SWEP.WorldModel = Model("models/kyo/w_tango9.mdl")
 SWEP.Trigger = {
     PressedSound = Sound("ps_wfoly_plr_pi_tango9_fire_prefire"),
-    ReleasedSound = Sound("ps_wfoly_plr_pi_tango9_fire_disconnector"),
+    ReleasedSound = Sound("weap_golf17_disconnector_plr"),
     Time = 0.025
 }
 
