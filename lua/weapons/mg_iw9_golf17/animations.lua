@@ -61,7 +61,7 @@ SWEP.Animations = {
         Sequences = {"reload"},
         Length = 2.1,
         Fps = 30,
-        MagLength = 1.23,
+        MagLength = 1.055,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start")) end},
@@ -74,9 +74,9 @@ SWEP.Animations = {
 
     ["Reload_XmagLrg"] = {
         Sequences = {"reload_xmaglrg"},
-        Length = 2,
+        Length = 2.34,
         Fps = 30,
-        MagLength = 1.3,
+        MagLength = 1.6,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start")) end},
@@ -89,17 +89,17 @@ SWEP.Animations = {
 	
     ["Reload_Drummag"] = {
         Sequences = {"reload_drum"},
-        Length = 2.55,
+        Length = 2.66,
         Fps = 30,
-        MagLength = 1.55,
+        MagLength = 1.8,
         NextSequence = "Idle",
     },
 
     ["Reload_Xmag"] = {
         Sequences = {"reload_xmag"},
-        Length = 1.7,
+        Length = 2.1,
         Fps = 30,
-        MagLength = 1.2,
+        MagLength = 1.18,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start")) end},
@@ -112,9 +112,9 @@ SWEP.Animations = {
 
     ["Reload_Fast"] = {
         Sequences = {"reload_fast"},
-        Length = 1,
+        Length = 1.05,
         Fps = 30,
-        MagLength = 0.53,
+        MagLength = 0.54,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start_Fast")) end},
@@ -127,9 +127,9 @@ SWEP.Animations = {
 
     ["Reload_XmagLrg_Fast"] = {
         Sequences = {"reload_xmaglrg_fast"},
-        Length = 1.7,
+        Length = 1.75,
         Fps = 30,
-        MagLength = 1.23,
+        MagLength = 1.15,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start_Xmag_Fast")) end},
@@ -142,9 +142,9 @@ SWEP.Animations = {
 	
     ["Reload_Drummag_Fast"] = {
         Sequences = {"reload_drum_fast"},
-        Length = 1.9,
+        Length = 2.0,
         Fps = 30,
-        MagLength = 1.1,
+        MagLength = 1.3,
         NextSequence = "Idle",
     },
 	
@@ -165,9 +165,9 @@ SWEP.Animations = {
 
     ["Reload_Empty"] = {
         Sequences = {"reload_empty"},
-        Length = 2,
+        Length = 1.8,
         Fps = 30,
-        MagLength = 1.43,
+        MagLength = 0.8,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start_Empty")) end},
@@ -182,9 +182,9 @@ SWEP.Animations = {
 
     ["Reload_Empty_Xmag"] = {
         Sequences = {"reload_empty_xmag"},
-        Length = 2,
+        Length = 2.1,
         Fps = 30,
-        MagLength = 1.63,
+        MagLength = 1.1,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start_Empty_Xmag")) end},
@@ -199,9 +199,9 @@ SWEP.Animations = {
 
     ["Reload_Empty_XmagLrg"] = {
         Sequences = {"reload_empty_xmaglrg"},
-        Length = 2.2,
+        Length = 2.3,
         Fps = 30,
-        MagLength = 1.83,
+        MagLength = 1.3,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start_Empty_Xmag")) end},
@@ -216,17 +216,17 @@ SWEP.Animations = {
 	
     ["Reload_Empty_Drummag"] = {
         Sequences = {"reload_empty_drum"},
-        Length = 2.76,
+        Length = 2.8,
         Fps = 30,
-        MagLength = 1.46,
+        MagLength = 1.7,
         NextSequence = "Idle",
     },
 	
     ["Reload_Empty_Fast"] = {
         Sequences = {"reload_empty_fast"},
-        Length = 1.25,
+        Length = 1.26,
         Fps = 30,
-        MagLength = 0.84,
+        MagLength = 0.64,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start_Empty_Fast")) end},
@@ -256,9 +256,9 @@ SWEP.Animations = {
 
     ["Reload_Empty_XmagLrg_Fast"] = {
         Sequences = {"reload_empty_xmaglrg_fast"},
-        Length = 1.76,
+        Length = 1.77,
         Fps = 30,
-        MagLength = 1.3,
+        MagLength = 0.84,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start_Empty_Fast")) end},
@@ -272,9 +272,9 @@ SWEP.Animations = {
 	
     ["Reload_Empty_Drummag_Fast"] = {
         Sequences = {"reload_empty_drum_fast"},
-        Length = 2,
+        Length = 2.2,
         Fps = 30,
-        MagLength = 1,
+        MagLength = 1.01,
         NextSequence = "Idle",
 
     },
@@ -354,73 +354,7 @@ SWEP.Animations = {
 
     ["Inspect"] = {
         Sequences = {"inspect"},
-        Length = 5,
-        Fps = 30,
-        NextSequence = "Idle",
-        Events = {
-            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
-            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
-            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
-        }
-    },
-    ["Inspect_xmag"] = {
-        Sequences = {"inspect_xmag"},
-        Length = 5,
-        Fps = 30,
-        NextSequence = "Idle",
-        Events = {
-            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
-            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
-            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
-        }
-    },
-    ["Inspect_Xmaglrg"] = {
-        Sequences = {"inspect_xmaglrg"},
-        Length = 5,
-        Fps = 30,
-        NextSequence = "Idle",
-        Events = {
-            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
-            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
-            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
-        }
-    },
-    ["Inspect_drum"] = {
-        Sequences = {"inspect_drum"},
-        Length = 5,
-        Fps = 30,
-        NextSequence = "Idle",
-        Events = {
-            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
-            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
-            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
-        }
-    },
-    ["Inspect_empty"] = {
-        Sequences = {"inspect_empty"},
-        Length = 5,
-        Fps = 30,
-        NextSequence = "Idle",
-        Events = {
-            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
-            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
-            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
-        }
-    },
-	    ["Inspect_empty_xmag"] = {
-        Sequences = {"inspect_empty_xmag"},
-        Length = 5,
-        Fps = 30,
-        NextSequence = "Idle",
-        Events = {
-            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
-            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
-            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
-        }
-    },
-	    ["Inspect_empty_xmaglrg"] = {
-        Sequences = {"inspect_empty_xmaglrg"},
-        Length = 5,
+        Length = 4.53,
         Fps = 30,
         NextSequence = "Idle",
         Events = {
@@ -430,9 +364,9 @@ SWEP.Animations = {
         }
     },
 	
-	    ["Inspect_empty_drum"] = {
-        Sequences = {"inspect_empty_drum"},
-        Length = 5,
+    ["Inspect_xmag"] = {
+        Sequences = {"inspect_xmag"},
+        Length = 4.53,
         Fps = 30,
         NextSequence = "Idle",
         Events = {
@@ -441,6 +375,79 @@ SWEP.Animations = {
             {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
         }
     },
+	
+    ["Inspect_Xmaglrg"] = {
+        Sequences = {"inspect_xmaglrg"},
+        Length = 4.53,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
+            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
+            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
+        }
+    },
+	
+    ["Inspect_drum"] = {
+        Sequences = {"inspect_drum"},
+        Length = 4.53,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
+            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
+            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
+        }
+    },
+	
+    ["Inspect_empty"] = {
+        Sequences = {"inspect_empty"},
+        Length = 5.5,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
+            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
+            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
+        }
+    },
+	
+	["Inspect_empty_xmag"] = {
+        Sequences = {"inspect_empty_xmag"},
+        Length = 5.5,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
+            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
+            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
+        }
+    },
+	
+	["Inspect_empty_xmaglrg"] = {
+        Sequences = {"inspect_empty_xmaglrg"},
+        Length = 5.5,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
+            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
+            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
+        }
+    },
+	
+	["Inspect_empty_drum"] = {
+        Sequences = {"inspect_empty_drum"},
+        Length = 5.5,
+        Fps = 30,
+        NextSequence = "Idle",
+        Events = {
+            {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect01")) end},
+            {Time = 1, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect02")) end},
+            {Time = 2, Callback = function(self) self:DoSound(Sound("MW19_P320.Inspect03")) end},
+        }
+    },
+
     ["Firemode_Auto"] = {
         Sequences = {"semi_off"},
         Length = 0.5,

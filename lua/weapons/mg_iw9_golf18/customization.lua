@@ -22,7 +22,7 @@ end
 
 SWEP.Customization = {
 
-	{"att_vm_pi_golf18def", "att_vm_pi_golf18imp_stock"},
+	{"att_vm_pi_golf18_receiver", "att_vm_pi_golf18_romeo18_slide"},
 
     {"att_perk", "att_vm_pi_golf17_soh", "iw9_perk_fmj", "iw9_perk_ricochet", "iw9_perk_fastswap",},
 

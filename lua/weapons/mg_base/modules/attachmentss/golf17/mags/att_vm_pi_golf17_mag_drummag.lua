@@ -1,5 +1,5 @@
 ATTACHMENT.Base = "att_magazine"
-ATTACHMENT.Name = "50 Round Mags"
+ATTACHMENT.Name = "50 Round Drums"
 ATTACHMENT.Model = Model("models/kyo/attachment_vm_pi_golf17_drummag.mdl")
 ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_drummag.vmt")
 ATTACHMENT.BulletList = {
@@ -22,6 +22,6 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.87
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.82
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.82
-    weapon.Animations.Reload.Fps = weapon.Animations.Reload.Fps * 0.87
-    weapon.Animations.Reload_Empty.Fps = weapon.Animations.Reload_Empty.Fps * 0.87
+    --weapon.Animations.Reload.Fps = weapon.Animations.Reload.Fps * 0.87
+   -- weapon.Animations.Reload_Empty.Fps = weapon.Animations.Reload_Empty.Fps * 0.87
 end

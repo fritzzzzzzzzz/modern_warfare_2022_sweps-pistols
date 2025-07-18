@@ -23,6 +23,6 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Ads_In.Fps = weapon.Animations.Ads_In.Fps * 0.95
     weapon.Animations.Draw.Fps = weapon.Animations.Draw.Fps * 0.96
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.96
-    weapon.Animations.Reload.Fps = weapon.Animations.Reload.Fps * 0.9
-    weapon.Animations.Reload_Empty.Fps = weapon.Animations.Reload_Empty.Fps * 0.9 
+   -- weapon.Animations.Reload.Fps = weapon.Animations.Reload.Fps * 0.9
+    --weapon.Animations.Reload_Empty.Fps = weapon.Animations.Reload_Empty.Fps * 0.9 
 end

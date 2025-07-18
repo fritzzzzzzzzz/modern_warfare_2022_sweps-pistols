@@ -101,6 +101,21 @@ sound.Add({
 })
 
 sound.Add({
+	name = "golf_fire_last_mech",
+	channel = CHAN_WPNFOLEY + 1,
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/golf/weap_golf17_fire_plr_last_mech_01.ogg",
+		"zeron/golf/weap_golf17_fire_plr_last_mech_02.ogg",
+	    "zeron/golf/weap_golf17_fire_plr_last_mech_03.ogg",
+		"zeron/golf/weap_golf17_fire_plr_last_mech_04.ogg",
+		"zeron/golf/weap_golf17_fire_plr_last_mech_05.ogg",
+	    "zeron/golf/weap_golf17_fire_plr_last_mech_06.ogg",
+		}
+})
+
+sound.Add({
 	name = "p24_pi_golf17_drop_01",
 	channel = CHAN_WPNFOLEY + 1,
 	
