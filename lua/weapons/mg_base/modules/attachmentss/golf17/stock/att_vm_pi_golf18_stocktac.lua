@@ -1,5 +1,5 @@
 ATTACHMENT.Base = "att_stock"
-ATTACHMENT.Name = "Tactical Stock"
+ATTACHMENT.Name = "XRK Bar Stock"
 ATTACHMENT.Model = Model("models/kyo/att_vm_p24_pi_golf18_stocktac.mdl")
 ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_stocktac.vmt")
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)

@@ -11,5 +11,4 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.95
     weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 1.04
     weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 1.04
-
 end 
