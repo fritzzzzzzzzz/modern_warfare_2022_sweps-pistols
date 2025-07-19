@@ -1,6 +1,6 @@
 ATTACHMENT.Base = "attachment_vm_pi_swhiskey_ammo"
 ATTACHMENT.Name = "Snake Shot"
-ATTACHMENT.Icon = Material("viper/mw/attachments/icons/cpapa/icon_attachment_pi_cpapa_loader_snake.vmt")
+ATTACHMENT.Icon = Material("pwci/mw/attachments/icons/shared/icon_attachment_ammo_500sw_ss.vmt")
 ATTACHMENT.ExcludedAttachments = {"att_perk_ricochet"}
 ATTACHMENT.ShowOnWorldModel = false
 
