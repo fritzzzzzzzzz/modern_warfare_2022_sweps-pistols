@@ -39,8 +39,8 @@ SWEP.Customization = {
     "att_vm_silencer01", "att_vm_silencer02", "att_vm_silencer03",
     "att_vm_silencer04"},
 
-    {"att_sight", "att_vm_minireddot01", "att_vm_minireddot02", "att_vm_minireddot03", "att_vm_reflex_02", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
-    "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
+    {"att_sight", "att_vm_reflex_02", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
+    "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_reflex_east01",
     "att_vm_reflex_east02_tall", "att_vm_reflex_west02_tall", "att_vm_reflex_west03"},
 
     {"attachment_vm_pi_tango9_barrel", "attachment_vm_pi_tango9_barmini", "attachment_vm_pi_tango9_barlong", "attachment_vm_pi_tango9_barlgt", "attachment_vm_pi_tango9_barlhvylong", "attachment_vm_pi_tango9_barhvy", "attachment_vm_pi_tango9_barsil", "attachment_vm_pi_tango9_barsillgt",},
