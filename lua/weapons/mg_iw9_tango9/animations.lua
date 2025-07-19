@@ -550,4 +550,33 @@ SWEP.Animations = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW_Melee.Flesh_Small")) end}
         }
     },
+	
+	--["Super_Sprint_In"] = {
+    --    Sequences = {"super_sprint_in"},
+    --    Fps = 30,
+    --    Events = {
+    --        {Time = 0, Callback = function(self) self:EnableGrip() end},
+    --    }
+    --    --NextSequence = "Sprint_Loop",
+    --},
+
+    --["Super_Sprint_Loop"] = {
+    --    Sequences = {"super_sprint_loop"},
+    --    Fps = 30,
+    --    NextSequence = "Sprint_Loop", --make our state loop
+    --    --while sprinting, the playback rate of the viewmodel is scaled with velocity (cod-like behaviour)
+    --    Events = {
+    --        {Time = 0, Callback = function(self) self:EnableGrip() end},
+    --    }
+    --},
+
+    --["Super_Sprint_Out"] = {
+    --    Sequences = {"super_sprint_out"},
+    --    Length = 0.3,
+    --    Fps = 30,
+    --    NextSequence = "Idle",
+    --    Events = {
+    --        {Time = 0, Callback = function(self) self:EnableGrip() end},
+    --    }
+    -- },	
 }
