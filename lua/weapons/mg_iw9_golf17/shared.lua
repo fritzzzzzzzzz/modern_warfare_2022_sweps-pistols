@@ -23,7 +23,7 @@ SWEP.WorldModel = Model("models/kyo/wm_pi_x12.mdl")
 SWEP.Trigger = {
     PressedSound = Sound("weap_golf17_fire_first_plr"),
     ReleasedSound = Sound("weap_golf17_disconnector_plr"),
-    Time = 0.025
+    Time = 0.0 --0.025
 }
 SWEP.Purpose = "A light, semi-auto 9mm pistol with specialized and tactical modification options. The polymer frame keeps the weight down and the integrated rail allows laser attachments."
 SWEP.Author = "People With Commitment Issues"

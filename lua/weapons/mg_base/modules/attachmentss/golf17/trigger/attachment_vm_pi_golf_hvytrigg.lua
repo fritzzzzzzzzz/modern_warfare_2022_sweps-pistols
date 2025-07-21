@@ -8,10 +8,9 @@ ATTACHMENT.Bodygroups = {
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 function ATTACHMENT:Stats(weapon)
     BaseClass.Stats(self, weapon)
-    weapon.Recoil.AdsMultiplier = weapon.Recoil.AdsMultiplier * 1.24
+    weapon.Recoil.AdsMultiplier = weapon.Recoil.AdsMultiplier * 0.80
 	weapon.Cone.Hip =  weapon.Cone.Hip * 1.2
-	weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 1.4
-	weapon.Trigger.Time = 0.1
-    weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 1.4
-	weapon.Primary.RPM = weapon.Primary.RPM * 0.95
+	weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 1.30
+	weapon.Trigger.Time = 0.035
+    weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 1.5
 end

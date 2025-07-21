@@ -70,7 +70,7 @@ sound.Add({
 
 sound.Add({
 	name = "weap_golf17_disconnector_plr",
-	channel = CHAN_TRIGGER,
+	channel = CHAN_WPNFOLEY + 1,
 	level = 140,
 	volume = 10,
 	pitch = {100,100},
@@ -86,7 +86,7 @@ sound.Add({
 
 sound.Add({
 	name = "weap_golf17_fire_first_plr",
-	channel = CHAN_TRIGGER,
+	channel = CHAN_WPNFOLEY + 1,
 	level = 140,
 	volume = 10,
 	pitch = {100,100},

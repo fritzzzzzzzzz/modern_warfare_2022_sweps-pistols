@@ -10,7 +10,7 @@ function ATTACHMENT:Stats(weapon)
     weapon.Recoil.AdsMultiplier = weapon.Recoil.AdsMultiplier * 0.77
 	weapon.Cone.Hip =  weapon.Cone.Hip * 0.7
 	weapon.Bullet.DropOffStartRange = weapon.Bullet.DropOffStartRange * 1.4
-	weapon.Trigger.Time = 0.05
+	weapon.Trigger.Time = 0.04
     weapon.Bullet.EffectiveRange = weapon.Bullet.EffectiveRange * 1.4
 	weapon.Primary.RPM = 250
 end
