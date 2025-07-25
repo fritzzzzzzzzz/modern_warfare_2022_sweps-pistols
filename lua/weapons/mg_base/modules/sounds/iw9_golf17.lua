@@ -747,3 +747,12 @@ sound.Add({
 		"zeron/golf/p24_pi_golf17_inspect_empty_drum_mag_mvmnt.ogg",
 		}
 })
+sound.Add({
+	name = "p24_pi_golf17_reload_fast_end",
+	channel = CHAN_WPNFOLEY + 61,
+	volume = 1,
+	pitch = {100,100},
+	sound = {
+		"zeron/golf/p24_pi_golf17_reload_fast_end.ogg",
+		}
+})
