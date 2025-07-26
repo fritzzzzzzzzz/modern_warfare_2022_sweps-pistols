@@ -2,7 +2,7 @@ ATTACHMENT.Base = "att_barrel_conversion"
 ATTACHMENT.Name = "Impact Point"
 ATTACHMENT.Icon = Material("models/kyo/icon/golf/icon_golf_impactpoint.vmt")
 ATTACHMENT.Conversion = {
-	[3] = {"att_vm_pi_romeo18_stock", "att_vm_pi_golf17skel_stock", "att_vm_pi_golf18_stocklight", "att_vm_pi_golf18_stockhvy", "att_vm_pi_golf18_stocktac"},
+	[3] = {"att_vm_pi_romeo18_stock", "att_vm_pi_golf18_stocklight", "att_vm_pi_golf18_stockhvy", "att_vm_pi_golf18_stocktac"},
 
 	[6] = {"att_sight", "att_vm_2x_west02_holo", "att_vm_2x_west02", "att_vm_reflex_02", "att_vm_minireddot01_tall", "att_vm_minireddot02_tall", "att_vm_minireddot03_tall",
     "att_vm_holo_west01", "att_vm_holo_west02", "att_vm_holo_east01", "att_vm_reflex_east01",
@@ -14,7 +14,6 @@ ATTACHMENT.Conversion = {
 	
 	[9] = {"att_laser", "att_vm_laser_pstl02_v0", "att_vm_laser_pstl05_v0", "att_vm_laser_pstl06_v0", "att_vm_laser_pstl07_v0", "att_vm_flashlight_pstl01_v0", "att_vm_flashlight_pstl02_v0"},
 }
-ATTACHMENT.ExcludedAttachments = {"att_vm_pi_golf17skel_stock"}
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 

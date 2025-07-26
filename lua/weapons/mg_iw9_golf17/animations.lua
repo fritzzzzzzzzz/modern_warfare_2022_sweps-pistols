@@ -59,9 +59,9 @@ SWEP.Animations = {
 
     ["Reload"] = {
         Sequences = {"reload"},
-        Length = 2.1,
+        Length = 1.67,
         Fps = 30,
-        MagLength = 1.055,
+        MagLength = 1.1,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start")) end},
@@ -354,7 +354,7 @@ SWEP.Animations = {
 
     ["Inspect"] = {
         Sequences = {"inspect"},
-        Length = 4.53,
+        Length = 4.2,
         Fps = 30,
         NextSequence = "Idle",
         Events = {
@@ -366,7 +366,7 @@ SWEP.Animations = {
 	
     ["Inspect_xmag"] = {
         Sequences = {"inspect_xmag"},
-        Length = 4.53,
+        Length = 4.2,
         Fps = 30,
         NextSequence = "Idle",
         Events = {
@@ -378,7 +378,7 @@ SWEP.Animations = {
 	
     ["Inspect_Xmaglrg"] = {
         Sequences = {"inspect_xmaglrg"},
-        Length = 4.53,
+        Length = 4.2,
         Fps = 30,
         NextSequence = "Idle",
         Events = {
@@ -390,7 +390,7 @@ SWEP.Animations = {
 	
     ["Inspect_drum"] = {
         Sequences = {"inspect_drum"},
-        Length = 4.53,
+        Length = 4.2,
         Fps = 30,
         NextSequence = "Idle",
         Events = {

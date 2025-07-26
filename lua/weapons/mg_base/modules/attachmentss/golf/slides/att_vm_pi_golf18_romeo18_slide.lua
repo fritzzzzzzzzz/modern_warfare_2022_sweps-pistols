@@ -14,7 +14,6 @@ ATTACHMENT.Conversion = {
 	
 	[9] = {"att_laser", "att_vm_laser_pstl02_v0", "att_vm_laser_pstl05_v0", "att_vm_laser_pstl06_v0", "att_vm_laser_pstl07_v0", "att_vm_flashlight_pstl01_v0", "att_vm_flashlight_pstl02_v0"},
 }
-ATTACHMENT.ExcludedAttachments = {"att_vm_pi_golf18skel_stock"}
 
 local BaseClass = GetAttachmentBaseClass(ATTACHMENT.Base)
 
@@ -28,7 +27,7 @@ function ATTACHMENT:Stats(weapon)
     weapon.Animations.Holster.Fps = weapon.Animations.Holster.Fps * 0.85
     if (!weapon:HasAttachment("att_sight")) then	
 		weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0, 0, -0)
-		else
+	else
 		weapon.ViewModelOffsets.Aim.Pos = weapon.ViewModelOffsets.Aim.Pos + Vector(0, -2, -1)
 	end
 end
