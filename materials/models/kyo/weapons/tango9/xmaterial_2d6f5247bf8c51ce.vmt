@@ -5,7 +5,7 @@
     "$phongexponenttexture" "models\kyo\weapons\tango9\xmaterial_2d6f5247bf8c51ce_e"
 
     /////////////////
-    "$color2" "[0 0 0]"                                     //do not touch this
+    "$color2" "[.4 .4 .4]"                                     //do not touch this
     "$blendtintbybasealpha" "1"                             //do not touch this
     /////////////////
 
@@ -16,7 +16,7 @@
     "$phongfresnelranges" "[1 0.1 0]"
 
     //rimlight doesn't properly show in hlmv, make sure you're changing these values in game
-    "$rimlight" "1"
+    "$rimlight" "0"
     "$rimlightexponent" "100"
     "$rimmask" "1"
     "$rimlightboost" "1"

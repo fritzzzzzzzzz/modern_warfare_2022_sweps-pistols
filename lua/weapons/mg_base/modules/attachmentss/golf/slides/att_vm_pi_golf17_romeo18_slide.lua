@@ -35,6 +35,6 @@ end
 function ATTACHMENT:PostProcess(weapon)
     BaseClass.PostProcess(self, weapon)
     weapon:SetViewModel("models/easy/mw/weapons/vm_iw9_golf17_conv.mdl")
-	weapon.WorldModel = Model("models/kyo/wm_pi_x12_impbar.mdl")
+	weapon.WorldModel = Model("models/easy/mw/weapons/wm_pi_x12_impbar.mdl")
 	weapon.WorldModelOffsets.Pos = weapon.WorldModelOffsets.Pos + Vector(-1, 1, -1)
 end

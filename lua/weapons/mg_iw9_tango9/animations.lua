@@ -119,7 +119,7 @@ SWEP.Animations = {
         Sequences = {"reload_fast"},
         Length = 1.7,
         Fps = 30,
-        MagLength = 1,
+        MagLength = 1.44,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start_Fast")) end},
@@ -245,7 +245,7 @@ SWEP.Animations = {
         Sequences = {"reload_empty_fast"},
         Length = 2.25,
         Fps = 30,
-        MagLength = 1.5,
+        MagLength = 1.35,
         NextSequence = "Idle",
         Events = {
             {Time = 0, Callback = function(self) self:DoSound(Sound("MW19_P320.Reload_Start_Empty_Fast")) end},
