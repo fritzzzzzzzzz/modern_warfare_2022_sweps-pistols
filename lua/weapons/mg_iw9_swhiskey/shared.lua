@@ -37,6 +37,7 @@ SWEP.ParticleEffects = {
 SWEP.Trigger = {
     PressedSound = Sound("swhiskey_trig"),
     PressedAnimation = "Charge",
+	EmptyAnimation = "Charge",
     Time = 0.08
 }
 
