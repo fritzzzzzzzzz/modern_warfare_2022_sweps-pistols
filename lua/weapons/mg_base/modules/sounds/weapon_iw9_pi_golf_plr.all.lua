@@ -7,7 +7,7 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"^zeron/golf/weap_golf17_fire_plr_shot_01.wav",
+		"^zeron/golf/weap_golf17_fire_plr_shot_01.ogg",
 		}
 })
 
@@ -18,7 +18,7 @@ sound.Add({
 	volume = 10,
 	pitch = {100,100},
 	sound = {
-		"^zeron/golf/weap_golf17_sup_plr_shot_01.wav",
+		"^zeron/golf/weap_golf17_sup_plr_shot_01.ogg",
 
 		}
 })
@@ -30,7 +30,7 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"^zeron/golf/weap_golf17_fire_plr_shot_01_ads.wav",
+		"^zeron/golf/weap_golf17_fire_plr_shot_01_ads.ogg",
 		}
 })
 
@@ -41,7 +41,7 @@ sound.Add({
 	volume = 10,
 	pitch = {100,100},
 	sound = {
-		"^zeron/golf/weap_golf17_sup_plr_shot_01_ads.wav",
+		"^zeron/golf/weap_golf17_sup_plr_shot_01_ads.ogg",
 		}
 })
 

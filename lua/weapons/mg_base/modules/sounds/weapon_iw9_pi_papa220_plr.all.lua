@@ -68,12 +68,12 @@ sound.Add({
     pitch = {80,110},
     volume =     0.5,
 	sound = {
-		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_01.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_02.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_03.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_04.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_05.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_06.wav",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_01.ogg",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_02.ogg",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_03.ogg",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_04.ogg",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_05.ogg",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_ext2_06.ogg",
 		}
 })
 sound.Add({
@@ -82,12 +82,12 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_01.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_02.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_03.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_04.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_05.wav",
-		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_06.wav",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_01.ogg",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_02.ogg",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_03.ogg",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_04.ogg",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_05.ogg",
+		"zeron/mwii/weap_pistol_fire_plr_atmo_int1_06.ogg",
 		}
 })
 
@@ -98,12 +98,12 @@ sound.Add({
     pitch = {80,110},
     volume =     1,
 	sound = {
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_01.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_02.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_03.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_04.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_05.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_06.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_01.ogg",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_02.ogg",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_03.ogg",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_04.ogg",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_05.ogg",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_ext3_06.ogg",
 		}
 })
 
@@ -114,12 +114,12 @@ sound.Add({
 	volume = 1,
 	pitch = {100,100},
 	sound = {
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_01.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_02.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_03.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_04.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_05.wav",
-		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_06.wav",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_01.ogg",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_02.ogg",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_03.ogg",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_04.ogg",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_05.ogg",
+		"zeron/mwii/weap_pistol_sup_fire_plr_atmo_int1_06.ogg",
 		}
 })
 
